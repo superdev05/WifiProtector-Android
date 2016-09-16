@@ -1,0 +1,29 @@
+client
+resolv-retry    15
+persist-remote-ip
+cipher            AES-256-CBC
+dev                tun
+resolv-retry    infinite
+nobind
+persist-key
+persist-tun
+ns-cert-type    server
+comp-lzo
+mssfix            1400
+hand-window        30
+route-delay        2    10
+float
+verb 3
+key-direction 1
+<ca>
+%s
+</ca>
+<tls-auth>
+%s
+</tls-auth>
+<cert>
+%s
+</cert>
+<key>
+%s
+</key>

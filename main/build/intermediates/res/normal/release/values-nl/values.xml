@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/arrays.xml -->
+    <eat-comment/>
+    <string-array name="tls_directions_entries">
+    <item>0</item>
+    <item>1</item>
+    <item>Niet-gespecificeerd</item>
+  </string-array>
+    <string-array name="vpn_types">
+    <item>Certificaten</item>
+    <item>PKCS12 Bestand</item>
+    <item>Certifikata Android</item>
+    <item>Gebruikersnaam/Wachtwoord</item>
+    <item>Statische Sleutels</item>
+    <item>Gebruiker/WW + Certificaten</item>
+    <item>Gebruiker/WW + PKCS12 </item>
+    <item>Gebruiker/WW + Android</item>
+  </string-array>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="about">Over</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="account_activated">Uw account is geactiveerd.</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="activated">Geactiveerd!</string>
+    <string name="activating">Wordt geactiveerd...</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="add_profile">Profiel toevoegen</string>
+    <string name="add_profile_name_prompt">Voer een naam in voor het nieuwe Profiel</string>
+    <string name="address">Server Adres:</string>
+    <string name="app">OpenVPN voor Android</string>
+    <string name="auth_pwquery">wachtwoord</string>
+    <string name="auth_username">Gebruikersnaam</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="auto_selection">Automatische selectie *</string>
+    <string name="automatic_selection_description">* wij selecteren automatisch de snelste server voor uw locatie</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="backup_dns">Backup DNS server</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="benefits">Kenmerken</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="broken_image_cert_title">Fout bij het weergeven van de certificaat selectie</string>
+    <string name="broken_images">Niet Werkende Afbeeldingen</string>
+    <string name="ca_title">CA Certificaat</string>
+    <string name="cancel">Annuleer</string>
+    <string name="cancel_connection">Verbinding verbreken</string>
+    <string name="cancel_connection_long">VPN verbinding verbreken</string>
+    <string name="cancel_connection_query">Sluit de verbonden VPN af/annuleer de verbindingspoging?</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="cant_connect">Kan niet verbinden</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="cant_read_folder">Map is onleesbaar</string>
+    <string name="check_remote_tlscert">Controleert of de server een certificaat met TLS Server extensions gebruikt (--remote-cert-tls server)</string>
+    <string name="check_remote_tlscert_title">Verwacht TLS server-certificaat</string>
+    <string name="cipher_dialog_title">Codering methode</string>
+    <string name="clear">Leeg maken</string>
+    <string name="clear_log">logboek wissen</string>
+    <string name="client_certificate_title">Client Certificaat</string>
+    <string name="client_key_title">Client Certificaat Sleutel</string>
+    <string name="client_no_certificate">Geen Certificaat</string>
+    <string name="client_pkcs12_title">PKCS12 Bestand</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-nl/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Er is een update van de Android Wear-app vereist voor een bepaalde app."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app updatet."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear updaten"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-services inschak."</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Deze app werkt niet, tenzij u Google Play-services inschakelt."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Aangevraagd door <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-services ophalen"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ongeldig account"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play-services moet zijn ingeschakeld voor een app."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netwerkfout"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Google Play-services moet zijn geïnstalleerd voor een app."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play-services moet worden geüpdatet voor een app."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fout bij inloggen op het opgegeven account. Kies een ander account."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Inloggen mislukt"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Onbekend probleem met Google Play-services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Voor deze app zijn een of meer Google Play-services vereist die momenteel niet beschikbaar zijn. Neem contact op met de ontwikkelaar voor ondersteuning."</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="config_error_found">Fout in de configuratie</string>
+    <string name="configure_the_vpn">VPN configureren</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="connect">Verbinden</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="converted_profile">Geïmporteerd profiel</string>
+    <string name="converted_profile_i">Geïmporteerd profiel %d</string>
+    <string name="copyright_guicode">De broncode en bugs zijn te vinden op http://code.google.com/p/ics-openvpn/</string>
+    <string name="copyright_others">Het programma gebruikt de volgende componenten. Zie de broncode voor volledige details over de licenties.</string>
+    <string name="custom_config_summary">Geef je eigen configuratieopties aan. Wees voorzichtig!</string>
+    <string name="custom_config_title">Eigen configuratie opties</string>
+    <string name="custom_option_warning">Geavanceerde OpenVPN opties. Veel van de tun gerelateerde OpenVPN instellingen worden niet ondersteund. Als u denkt dat een belangrijke optie ontbreekt, neem dan contact op met de auteur.</string>
+    <string name="custom_options_title">Aangepaste Opties</string>
+    <string name="custom_route_format_error">Fout bij inlezen van aangepaste routes</string>
+    <string name="custom_routes_title">Eigen routes</string>
+    <string name="default_route_summary">Leid al het Verkeer over de VPN</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="disconnect">Verbinding verbreken</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="dns">DNS</string>
+    <string name="dns1_summary">Primaire DNS server</string>
+    <string name="dns_override_summary">Gebruik eigen DNS Servers</string>
+    <string name="dns_server">DNS Server</string>
+    <string name="duplicate_profile_name">Profielnaam is al in gebruik</string>
+    <string name="edit_vpn">VPN Instellingen Bewerken</string>
+    <string name="encryption">Codering</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="enter_licence">Voer de activeringscode in</string>
+    <string name="enter_licence_key">Om de volledige versie van de app te activeren, dient u uw activeringscode voor WiFi Protector in te voeren</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="enter_tlscn_title">Externe certificaathouder</string>
+    <string name="error">"Fout:"</string>
+    <string name="faq">Veelgestelde vragen </string>
+    <string name="faq_security_title">Beveiligingsoverwegingen</string>
+    <string name="faq_tap_mode">De VPN API van Android werkt zonder rooten van de telefoon en ondersteunt alleen de tun modus. Daarom is de tap modus niet mogelijk met deze app.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="fastest_vpn_servers">De snelste VPN-servers</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="file_icon">bestands pictogram</string>
+    <string name="file_nothing_selected">Je moet een bestand selecteren</string>
+    <string name="file_select">Selecteer…</string>
+    <string name="float_summary">Geverifieerde pakketen zijn vanuit elk IP toegestaan</string>
+    <string name="float_title">Zwevende server toestaan</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="free_for_limited_time">\u2022 100% GRATIS voor 1 uur per dag
+        \n\u2022 Gebruiksvriendelijk
+        \n\u2022 Al uw webbrowsing is beschermd door een versleuteling 256 bit
+        \n\u2022 Verbergt uw werkelijke IP-adres en biedt u anonimiteit en vrijheid
+        \n\u2022 Selecteer tussen meer dan 20 landen om mee te verbinden</string>
+    <string name="free_user">Gratis gebruiker</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="generated_config">Gegenereerde Configuratie</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="have_licence">Ik heb een licentie</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="ignore_routes_summary">Negeer routes ontvangen van de server.</string>
+    <string name="ignored_pushed_routes">Negeer ontvangen routes</string>
+    <string name="import_configuration_file">configuratie bestand importeren</string>
+    <string name="import_could_not_open">Kon het bestand %1$s, zoals aangegeven in de geïmporteerde configuratie niet vinden</string>
+    <string name="import_done">Lezen van configuratie bestand afgesloten.</string>
+    <string name="import_vpn">Importeren</string>
+    <string name="importing_config">Geïmporteerde configuratie bestand uit %1$s</string>
+    <string name="ipdns">IP en DNS</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv4_address">IPv4 Adres</string>
+    <string name="ipv4_dialog_title">Voer een IPv4 Adres/Netmask in met het CIDR Formaat (v.b. 1.2.3.4/24)</string>
+    <string name="ipv4_format_error">Fout bij inlezen van IPv4-adres</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv4 Adres</string>
+    <string name="ipv6_dialog_tile">Voer een IPv6 Adres/Netmask in met het CIDR Formaat (v.b. 2000:dd::23/64)</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="licence">Licentie</string>
+    <string name="licence_expired">Uw licentie is vervallen.</string>
+    <string name="licence_key">Licentiesleutel</string>
+    <string name="licence_key_expired">De activeringscode is vervallen</string>
+    <string name="licence_key_expired_desc">Uw activeringscode is vervallen. Neem contact op met support@wifiprotector.com</string>
+    <string name="licence_not_valid">Uw activeringscode is ongeldig. Graag nog eens proberen.</string>
+    <string name="licences">Licenties</string>
+    <string name="limit_exceeded">Limiet gratis VPN is bereikt.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="local_ip_info">Lokaal IPv4: %1$s/%2$d IPv6: %3$s MTU: %4$d</string>
+    <string name="location">Locatie</string>
+    <string name="menu_add_profile">Profiel toevoegen</string>
+    <string name="menu_import_short">Import</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="next">Volgende</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="no_bind">Geen locale binding</string>
+    <string name="no_certificate">Je moet een certificaat selecteren</string>
+    <string name="no_data">Geen Gegevens</string>
+    <string name="no_error_found">Geen fout.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="no_internet_connection">Geen internetverbinding</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="no_keystore_cert_selected">Geen gebruikerscertificaat geselecteerd</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="no_subscription">Geen abonnement</string>
+    <string name="not_now">Nu niet</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="override_dns">DNS Instellingen van Server Overschrijven</string>
+    <string name="password">Wachtwoord</string>
+    <string name="pkcs12_file_encryption_key">PKCS12 Bestand Encryptie Sleutel</string>
+    <string name="pkcs12pwquery">PKCS12 Wachtwoord</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="plans">Plannen</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="port">Server Poort:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="premium_support">Premium ondersteuning</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="private_key_password">Privé Sleutel Wachtwoord</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="pro_tip">Pro-tip:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="profilename">Profiel name</string>
+    <string name="pull_off_summary">De server vraagt geen informatie op. Instellingen moeten onderaan worden gespecificeerd.</string>
+    <string name="pull_on_summary">Vraag IP adres, routes en timing opties van de server.</string>
+    <string name="pw_query_hint">(vrij laten voor query op aanvraag)</string>
+    <string name="random_host_prefix">Willekeurig Host Voorvoegsel</string>
+    <string name="random_host_summary">Voegt 6 willekeurige tekens toe voor de hostname</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="refresh">Vernieuwen</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="remote_tlscn_check_summary">Controleert de externe server certificaathouder</string>
+    <string name="remote_tlscn_check_title">Controleer Certificaat Hostname</string>
+    <string name="remove_vpn">VPN wissen</string>
+    <string name="remove_vpn_query">De VPN-profiel \'%s\' verwijderen?</string>
+    <string name="route_rejected">Route geweigert door Android</string>
+    <string name="searchdomain">Zoekd domein</string>
+    <string name="secondary_dns_message">Secundaire DNS server. Deze wordt gebruikt voor het geval dat de primaire DNS server niet bereikbaar is</string>
+    <string name="select">Selecteer</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="select_from_countries">Selecteer tussen meer dan 20 landen om mee te verbinden</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="send">Verzenden</string>
+    <string name="send_logfile">Logboek verzenden</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="server_is_not_responding_toast">Deze server kan momenteel niet bereikt worden. Probeer het nog eens of gebruik een andere server</string>
+    <string name="servers_are_not_responding_toast">Deze servers kunnen momenteel niet bereikt worden. Probeer het over enkele minuten nog eens</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="shortcut_profile_notfound">Het profiel zoals aangegeven in de snelkoppeling kon niet gevonden worden.</string>
+    <string name="speed_waiting">Wachten op status bericht…</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="start">Starten</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="static_keys_info">Voor de statische configuratie worden de TLS Auth keys als statische sleutels gebruikt</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="subscription">Abonnement</string>
+    <string name="subscription_cancelled">Geannuleerd</string>
+    <string name="support">Ondersteuning</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="tap_mode">Tap mode</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="time_limit_exceeded">Uw gratis gebruik van 1 uur VPN is voor vandaag bereikt. Selecteer hieronder uw abonnement voor de opwaardering tot de volledige versie.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="title_cancel">Annuleer bevestiging</string>
+    <string name="tls_auth_file">TLS Auth Bestand</string>
+    <string name="tls_authentication">TLS Verificatie</string>
+    <string name="tls_direction">TLS Richting</string>
+    <string name="tls_key_auth">Activeert TLS Key verificatie</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="unknown_error">Onbekende fout</string>
+    <string name="unlimited_usage">Onbeperkt gebruik </string>
+    <string name="updating_servers">Update servers…</string>
+    <string name="upgrade_to_full_version">Opwaarderen voor volledige bescherming</string>
+    <string name="upgrade_to_unlock">U kunt de app opwaarderen voor onbeperkte diensten.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="useLZO">LZO Compressie</string>
+    <string name="useTLSAuth">Gebruik TLS autentificatie</string>
+    <string name="use_default_title">Gebruik standaard Route</string>
+    <string name="use_pull">Pull Instellingen</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="version">Versie</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="version_info">%1$s %2$s</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="vpn_is_off">VPN-bescherming is uit</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="vpn_launch_title">Met VPN verbinden</string>
+    <string name="vpn_list_title">Profielen</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="vpn_protection_desc">Een VPN (Virtual Private Network) kan beschouwd worden als een privé kanaal tussen uw toestel en het Internet. </string>
+    <string name="vpn_protection_desc_2">Dit maakt alle communicatie van en naar uw mobiele toestel op doeltreffende wijze \'onzichtbaar\' voor iedereen om u heen. Uw gegevens (informatie) zijn feitelijk versleuteld waardoor het voor ieder ander inhoudloos is. De VPN van Wifi Protector gebruikt OpenVPN-technologie, wat het veiligste VPN-protokol is dat momenteel beschikbaar is.</string>
+    <string name="vpn_security_enabled">Verbonden. VPN-beveiliging geactiveerd.</string>
+    <string name="vpn_server">Uw VPN-server:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/strings.xml -->
+    <eat-comment/>
+    <string name="vpn_shortcut">Open VPN shortcut</string>
+    <string name="vpn_type">Type</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-nl/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="what_is_vpn">Wat is VPN?</string>
+    <string name="would_like_to_buy">Ik wil graag een abonnement kopen</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Met een jaarlijks abonnement heeft dezelfde gebruiker toegang tot de onderscheidingwinnende versie van Wifi Protector voor PC (> 1 miljoen gebruikers en dat cijfer loopt op), volledig GRATIS.
+        ]]></string>
+</resources>

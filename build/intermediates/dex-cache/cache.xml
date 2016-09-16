@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.intellij/annotations/12.0/bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539/annotations-12.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/annotations-12.0-f12bd97126c14c9418ed12cfdbbe4311c690aa88.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/httpcore-4.3.2-fc368f4ef75181afa6641eb40b279329bbf00ade.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-okhttp/1.4.14/ba9cdcf32fc21de16afebfc5411425284923e0cd/robospice-okhttp-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba9cdcf32fc21de16afebfc5411425284923e0cd">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/robospice-okhttp-1.4.14-6235fd83830269c751f05f94a431761f45a15204.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-c84a39165872d56702f0f26752fbdbdd66a3553e.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-59a7e71448cb26da6e87bf7da5a7e33050f7b257.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-cache/1.4.14/1a13bea0b3ae105c44cb6be7fc76b6d36098faf5/robospice-cache-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a13bea0b3ae105c44cb6be7fc76b6d36098faf5">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/robospice-cache-1.4.14-a4f07a725bfba41f8f9189b5c361757848042bef.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.7.1/8fa5f11686c7a44386b41a6890e655cf2b7d5e70/timber-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8fa5f11686c7a44386b41a6890e655cf2b7d5e70">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/timber-2.7.1-63185eb96ec4f97f4340991a0cf56fcdc73a2a39.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-10beaa0ebd04a1662d1497ac800a96f378bda75f.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-b4caeb6bf10572080deb2ffc8d0ae1574be34a60.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/commons-lang3-3.3.2-5960b0edc33f911ae6458a2a153a235f3d12e697.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-df2fb09c4574616483e563ca832c4fd339b8f2d1.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-e39cf26dae5879cc2d6a83065a99144b67b8d996.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e49a5c0acee8fd66225dc1d031692d132323417f">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/aspectjrt-1.7.4-98eab48dc3c39e4961b4fc087749281857da289b.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/commons-io-1.3.2-a47151a78f6c2ac2b2f14c19cd94863f30831797.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice/1.4.14/fffe1563473feb2f956608554d3e97ad805914a7/robospice-1.4.14.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fffe1563473feb2f956608554d3e97ad805914a7">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/robospice-1.4.14-572914771b9e0b5859cf7beaa74332d1fb5d7b19.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.github.eluleci/flatui/3.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1089efa4a24767294278997764bea2fda31ccca">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-76afb60790f0aed36b69d0dcfecce73d4118d2c4.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-c2ad08abd3969e7fa1087c47eba21476f257afa9.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-72c5885bd2df51732c8b007e1630a6ff28e61a61.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.simpleframework/simple-xml/2.7.1/dd91fb744c2ff921407475cb29a1e3fee397d411/simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd91fb744c2ff921407475cb29a1e3fee397d411">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/simple-xml-2.7.1-898338a0aa99167a38cff7e5283d77f630062d0d.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.intellij/annotations/12.0/bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539/annotations-12.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/vpndialogxposed/build/intermediates/pre-dexed/release/annotations-12.0-f12bd97126c14c9418ed12cfdbbe4311c690aa88.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-c379f37dba7e9717ef31c00eaccb87ed1cd8f1a7.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/1.6.0/375c2206eb7e52976955d0f8737be5e0ec9cf667/okhttp-urlconnection-1.6.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="375c2206eb7e52976955d0f8737be5e0ec9cf667">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/okhttp-urlconnection-1.6.0-6314478cf0150f396a4695c69ab2894d93f6a5ab.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.crashlytics.android/crashlytics/1.1.13/e821eafa1bf489a26bdb71f95078c26785b37a1/crashlytics-1.1.13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/crashlytics-1.1.13-5f74ae786498da2c4216113e0bff39aec3e5e00c.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data/SDK/androidstudio/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/support-annotations-22.0.0-cb030df7541d9047c1d495b3eebaa45311a23b58.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/okhttp-2.2.0-abb2a590ad48202eb7e804f7c4542d952f943bb9.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-2c90cb288a2a3182a23e9c11b04f8abda3d86318.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/internal_impl-22.0.0-8e8f25b66345ea3c3e51f1269662e69f212e3ca3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-f62e5bf5918d5024f49ea187940705627f1e7888.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="25bac7a5db190df4dabc9e282b0cb57d400c415b">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-581b071dd3c0f49e5924413ee8796058e46d4233.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-be4eea14a3f0022a071992032017df9d65381e60.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-c3baffdc160a3b4634f92cc821dd0dcba0041970.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.2/3202421d9425ced69919b282afa644e7ef0e8fef/httpmime-4.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/httpmime-4.3.2-049117fe98246af01ce13b542f4368c2d3d2014b.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/okio-1.2.0-cbffb337c3e56ddc2915bd50107c14b099ba6ac1.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-572e359ee22901655c86b098b8c687d39127075b.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-3bb15997f917331cce468f48c2d10c7a1160bb8a.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-ba5c4b52915a6e701fb73cf39d0d988bf3773103.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-4b5f6568584042f9846c04d153f9bfb58d000cf4.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.viewpagerindicator/library/2.4.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-46bff86647d015d0fc18cefe3b1bbcc3a691a3ea.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-45266e3160c025643791d87f047a1f4ff1acd578.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-7afdeb804f6a40c39e7c7596f9359fa5dbadf075.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-c14464794d6cc53c454b8647115e27034f33481c.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-608d9eb9c8d561b200e43e34bbc2b74b89e7ff83.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-6f4343108c17cd5beef0ab59def7cda1e46f4a70.jar" />
+    </item>
+    <item
+        jar="/Users/panda/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.1.0/e67a622a9034c9e995750528180b8e19434f6e02/hugo-annotations-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e67a622a9034c9e995750528180b8e19434f6e02">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/hugo-annotations-1.1.0-c6bc0c908ade3eb524f79f9ff3e892065fb7a94c.jar" />
+    </item>
+    <item
+        jar="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/pre-dexed/normal/debug/classes-49168f89896935f30484da962ef5e65e30bd67da.jar" />
+    </item>
+
+</items>

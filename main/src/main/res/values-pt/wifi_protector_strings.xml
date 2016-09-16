@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="vpn_security_enabled">Conectado. Segurança VPN habilitada.</string>
+    <string name="licence_key">Chave de licença</string>
+    <string name="enter_licence_key">Para ativar a versão completa do aplicativo, insira seu código de ativação do WiFi Protector</string>
+    <string name="activating">Ativando... </string>
+    <string name="activated">Ativado!</string>
+    <string name="account_activated">Sua conta foi ativada.</string>
+    <string name="licence_expired">Sua licença expirou.</string>
+    <string name="licence_not_valid">Seu código de ativação não é válido. Por favor, tente novamente.</string>
+    <string name="enter_licence">Inisira o código de ativação</string>
+    <string name="unknown_error">Erro desconhecido</string>
+    <string name="limit_exceeded">Limite de VPN gratuita atingido.</string>
+    <string name="upgrade_to_unlock">Você pode atualizar o aplicativo para torná-lo ilimitado.</string>
+    <string name="cant_connect">Não foi possível conectar</string>
+    <string name="no_internet_connection">Sem conexão com a internet</string>
+    <string name="subscription_cancelled">Cancelado</string>
+    <string name="subscription">Assinatura</string>
+    <string name="no_subscription">Nenhuma assinatura</string>
+    <string name="automatic_selection_description">* nós selecionamos automaticamente o servidor mais rápido para a sua localização</string>
+    <string name="auto_selection">Seleção automática *</string>
+    <string name="vpn_protection_desc">Uma VPN (Virtual Private Network) pode ser considerada como seu túnel privado entre o seu dispositivo e a Internet.</string>
+    <string name="vpn_protection_desc_2">Isso, efetivamente, torna toda a comunicação para e a partir do seu celular \'invisível\' para alguém próximo a você. De fato, os seus dados (informações) são criptografados tornando-se sem significado para outras pessoas. O Wifi Protector VPN utiliza a tecnologia OpenVPN que é o protocolo VPN mais seguro disponível hoje.</string>
+    <string name="free_for_limited_time">\u2022 100% GRATUITO por 1 hora por dia
+        \n\u2022 Fácil de usar
+        \n\u2022 Toda a sua navegação na web é protegida pela criptografia de 256 bits
+        \n\u2022 Esconde o seu endereço IP real e dá a você anonimato e liberdade
+        \n\u2022 Escolha a partir de mais de 20 países para se conectar</string>
+    <string name="what_is_vpn">O que é VPN?</string>
+    <string name="time_limit_exceeded">Seu limite de VPN gratuita de 1 hora expirou por hoje. Selecione a opção assinatura abaixo e atualize para a versão completa agora.</string>
+    <string name="vpn_is_off">A proteção VPN está desligada</string>
+    <string name="upgrade_to_full_version">Atualize para ter proteção total</string>
+    <string name="not_now">Agora não</string>
+    <string name="select_from_countries">Escolha a partir de mais de 20 países para se conectar</string>
+    <string name="unlimited_usage">Uso ilimitado</string>
+    <string name="fastest_vpn_servers">Servidores VPN mais rápidos</string>
+    <string name="premium_support">Suporte premium</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Com uma assinatura anual o mesmo usuário terá acesso à premiada versão para PC do Wifi Protector (> 1 milhão de usuários e aumentando) totalmente GRÁTIS.
+        ]]></string>
+    <string name="pro_tip">Dica Pro:</string>
+    <string name="support">Suporte</string>
+    <string name="server_is_not_responding_toast">Este servidor não pode ser acessado agora. Por favor, tente novamente ou use um servidor diferente</string>
+    <string name="servers_are_not_responding_toast">Estes servidores não puderam ser acessados agora. Por favor, tente novamente em alguns minutos</string>
+    <string name="licence_key_expired">Código de ativação expirado</string>
+    <string name="licence_key_expired_desc">Seu código de ativação expirou. Por favor, entre em contato com support@wifiprotector.com</string>
+    <string name="version">Versão</string>
+    <string name="updating_servers">Atualizando servidores.. </string>
+    <string name="refresh">Atualizar</string>
+    <string name="licence">Licença</string>
+    <string name="plans">Planos</string>
+    <string name="benefits">Recursos</string>
+    <string name="vpn_server">Seu servidor VPN:</string>
+    <string name="free_user">Usuário gratuito</string>
+    <string name="have_licence">Eu tenho uma licença</string>
+    <string name="would_like_to_buy">Gostaria de comprar uma assinatura</string>
+    <string name="licences">Licenças</string>
+    <string name="next">Avançar</string>
+    <string name="start">Iniciar</string>
+    <string name="action_settings">Configurações</string>
+</resources>

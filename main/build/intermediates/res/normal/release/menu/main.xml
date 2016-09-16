@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/enter_licence"
+        android:title="@string/enter_licence" />
+    <item
+        android:id="@+id/support"
+        android:title="@string/support" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/test_consume_iap"
+        android:title="TEST: Deactivate full version"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/sendLog"
+        android:title="Send Logs"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/buyLicense"
+        android:title="Buy Full License"
+        android:visible="true" />
+</menu><!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/menu/main.xml -->

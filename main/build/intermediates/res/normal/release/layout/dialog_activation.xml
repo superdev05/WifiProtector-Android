@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_licence_key"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/licence_key"
+        android:inputType="textCapCharacters" />
+</LinearLayout><!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/layout/dialog_activation.xml -->

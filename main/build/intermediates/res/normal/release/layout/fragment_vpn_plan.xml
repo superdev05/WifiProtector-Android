@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="60dp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="@string/plans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_light" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <RadioButton
+                android:id="@+id/radio_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/free_user"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radio_license"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="@string/have_licence" />
+
+            <RadioButton
+                android:id="@+id/radio_buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="@string/would_like_to_buy" />
+
+        </RadioGroup>
+
+        <com.cengalabs.flatui.views.FlatButton
+            android:id="@+id/start"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/start"
+            flatui:fl_theme="@array/sky"
+            flatui:fl_textAppearance="fl_light"
+            flatui:fl_textColor="fl_light"
+            flatui:fl_blockButtonEffectHeight="3dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/layout/fragment_vpn_plan.xml -->

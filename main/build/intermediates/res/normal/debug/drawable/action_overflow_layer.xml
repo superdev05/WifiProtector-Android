@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/action_button"
+        android:top="30dp"
+        android:bottom="30dp"/>
+</layer-list><!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/drawable/action_overflow_layer.xml -->

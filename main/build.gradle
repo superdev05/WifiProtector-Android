@@ -1,0 +1,184 @@
+apply plugin: 'com.android.application'
+apply plugin: 'hugo'
+apply plugin: 'crashlytics'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url 'http://download.crashlytics.com/maven' }
+    }
+
+    dependencies {
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.1.0'
+        classpath 'com.crashlytics.tools.gradle:crashlytics-gradle:1.+'
+    }
+}
+
+repositories {
+    maven { url "http://dl.bintray.com/populov/maven" }
+    maven { url 'http://download.crashlytics.com/maven' }
+    mavenCentral()
+}
+
+
+dependencies {
+    compile 'com.intellij:annotations:12.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:cardview-v7:21.0.+'
+    compile 'com.android.support:recyclerview-v7:21.0.+'
+    compile 'com.octo.android.robospice:robospice:1.4.14'
+    compile 'com.octo.android.robospice:robospice-okhttp:1.4.14'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile('org.simpleframework:simple-xml:2.7.+') {
+        exclude module: 'stax'
+        exclude module: 'stax-api'
+        exclude module: 'xpp3'
+    }
+    compile 'com.crashlytics.android:crashlytics:1.+'
+    compile 'com.jakewharton.timber:timber:2.7.1'
+    compile 'com.viewpagerindicator:library:2.4.1@aar'
+    compile 'com.github.eluleci:flatui:3.0.0'
+    compile 'org.apache.httpcomponents:httpmime:4.3.2'
+    compile 'org.apache.httpcomponents:httpcore:4.3.2'
+    compile 'com.google.android.gms:play-services:7.0.0'
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.wifiprotector.android"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode = 14
+        versionName = "0.9.3"
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'ovpnlibs/assets']
+            jniLibs.srcDirs = ['ovpnlibs/jniLibs']
+            jni.srcDirs = [] //disable automatic ndk-build
+        }
+
+        ovpn3 {
+
+        }
+
+        debug {
+
+        }
+
+        release {
+
+        }
+    }
+
+    /*
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }*/
+
+    signingConfigs {
+        release{
+            storeFile file("com.wifiprotector.android.jks")
+            storePassword "Pej2u8DNfkCBF7uGjQFCxCeyVEwvxB"
+            keyAlias "wifiprotector"
+            keyPassword "Pej2u8DNfkCBF7uGjQFCxCeyVEwvxB"
+        }
+    }
+
+    lintOptions {
+        enable 'BackButton', 'EasterEgg', 'StopShip', 'IconExpectedSize', 'GradleDynamicVersion', 'NewerVersionAvailable'
+        disable 'MissingTranslation'
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField 'boolean', 'STAGING', 'false'
+        }
+        stage {
+            debuggable true
+            buildConfigField 'boolean', 'STAGING', 'true'
+            signingConfig signingConfigs.release
+        }
+        release {
+            buildConfigField 'boolean', 'STAGING', 'false'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    productFlavors {
+      //ovpn3
+
+      normal
+
+
+
+      /*
+      x86 {
+            versionCode Integer.parseInt("6" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "x86"
+            }
+        }
+
+        mips {
+            versionCode Integer.parseInt("4" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "mips"
+            }
+        }
+
+        armv7 {
+            versionCode Integer.parseInt("2" + defaultConfig.versionCode)
+            ndk {
+               abiFilter "armeabi-v7a"
+            }
+        }
+
+        arm {
+            versionCode Integer.parseInt("1" + defaultConfig.versionCode)
+            ndk {
+                abiFilter "armeabi"
+            }
+        }
+
+        fat
+        */
+    }
+
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+}
+/*
+def props = new Properties()
+
+props.load(new FileInputStream(rootProject.file("release.properties")))
+android {
+    signingConfigs {
+        release {
+            storeFile rootProject.file(props.keyStore)
+            storePassword props.keyStorePassword
+            keyAlias props.keyAlias
+            keyPassword props.keyAliasPassword
+        }
+    }
+}
+*/
+/*tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
+    pkgTask.jniFolders = new HashSet<File>()
+    pkgTask.jniFolders.add(new File(buildDir, 'native-libs'))
+}
+*/
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">Verbinden</string>
+    <string name="disconnect">Verbinding verbreken</string>
+    <string name="vpn_security_enabled">Verbonden. VPN-beveiliging geactiveerd.</string>
+    <string name="licence_key">Licentiesleutel</string>
+    <string name="enter_licence_key">Om de volledige versie van de app te activeren, dient u uw activeringscode voor WiFi Protector in te voeren</string>
+    <string name="activating">Wordt geactiveerd...</string>
+    <string name="activated">Geactiveerd!</string>
+    <string name="account_activated">Uw account is geactiveerd.</string>
+    <string name="licence_expired">Uw licentie is vervallen.</string>
+    <string name="licence_not_valid">Uw activeringscode is ongeldig. Graag nog eens proberen.</string>
+    <string name="enter_licence">Voer de activeringscode in</string>
+    <string name="unknown_error">Onbekende fout</string>
+    <string name="limit_exceeded">Limiet gratis VPN is bereikt.</string>
+    <string name="upgrade_to_unlock">U kunt de app opwaarderen voor onbeperkte diensten.</string>
+    <string name="cant_connect">Kan niet verbinden</string>
+    <string name="no_internet_connection">Geen internetverbinding</string>
+    <string name="subscription_cancelled">Geannuleerd</string>
+    <string name="subscription">Abonnement</string>
+    <string name="no_subscription">Geen abonnement</string>
+    <string name="automatic_selection_description">* wij selecteren automatisch de snelste server voor uw locatie</string>
+    <string name="auto_selection">Automatische selectie *</string>
+    <string name="vpn_protection_desc">Een VPN (Virtual Private Network) kan beschouwd worden als een privé kanaal tussen uw toestel en het Internet. </string>
+    <string name="vpn_protection_desc_2">Dit maakt alle communicatie van en naar uw mobiele toestel op doeltreffende wijze \'onzichtbaar\' voor iedereen om u heen. Uw gegevens (informatie) zijn feitelijk versleuteld waardoor het voor ieder ander inhoudloos is. De VPN van Wifi Protector gebruikt OpenVPN-technologie, wat het veiligste VPN-protokol is dat momenteel beschikbaar is.</string>
+    <string name="free_for_limited_time">\u2022 100% GRATIS voor 1 uur per dag
+        \n\u2022 Gebruiksvriendelijk
+        \n\u2022 Al uw webbrowsing is beschermd door een versleuteling 256 bit
+        \n\u2022 Verbergt uw werkelijke IP-adres en biedt u anonimiteit en vrijheid
+        \n\u2022 Selecteer tussen meer dan 20 landen om mee te verbinden</string>
+    <string name="what_is_vpn">Wat is VPN?</string>
+    <string name="time_limit_exceeded">Uw gratis gebruik van 1 uur VPN is voor vandaag bereikt. Selecteer hieronder uw abonnement voor de opwaardering tot de volledige versie.</string>
+    <string name="vpn_is_off">VPN-bescherming is uit</string>
+    <string name="upgrade_to_full_version">Opwaarderen voor volledige bescherming</string>
+    <string name="not_now">Nu niet</string>
+    <string name="select_from_countries">Selecteer tussen meer dan 20 landen om mee te verbinden</string>
+    <string name="unlimited_usage">Onbeperkt gebruik </string>
+    <string name="fastest_vpn_servers">De snelste VPN-servers</string>
+    <string name="premium_support">Premium ondersteuning</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Met een jaarlijks abonnement heeft dezelfde gebruiker toegang tot de onderscheidingwinnende versie van Wifi Protector voor PC (> 1 miljoen gebruikers en dat cijfer loopt op), volledig GRATIS.
+        ]]></string>
+    <string name="pro_tip">Pro-tip:</string>
+    <string name="support">Ondersteuning</string>
+    <string name="server_is_not_responding_toast">Deze server kan momenteel niet bereikt worden. Probeer het nog eens of gebruik een andere server</string>
+    <string name="servers_are_not_responding_toast">Deze servers kunnen momenteel niet bereikt worden. Probeer het over enkele minuten nog eens</string>
+    <string name="licence_key_expired">De activeringscode is vervallen</string>
+    <string name="licence_key_expired_desc">Uw activeringscode is vervallen. Neem contact op met support@wifiprotector.com</string>
+    <string name="version">Versie</string>
+    <string name="updating_servers">Update servers…</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="licence">Licentie</string>
+    <string name="plans">Plannen</string>
+    <string name="benefits">Kenmerken</string>
+    <string name="vpn_server">Uw VPN-server:</string>
+    <string name="free_user">Gratis gebruiker</string>
+    <string name="have_licence">Ik heb een licentie</string>
+    <string name="would_like_to_buy">Ik wil graag een abonnement kopen</string>
+    <string name="licences">Licenties</string>
+    <string name="next">Volgende</string>
+    <string name="start">Starten</string>
+    <string name="action_settings">Instellingen</string>
+</resources>

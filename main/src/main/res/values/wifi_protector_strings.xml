@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="public_licence_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsJ04vlB6QyrsvFx2ASSycd7j2gEPsleaCmIEslRAJO7CZTqiTK1tpcJyChVoC4HDrmImDtw6eetVabRgfbhrwLZtPnkn79dhXmQPOoJhwEDom/Zibqt4602c7BQ1KFa4Us4B1vkpmQVYLYNxG4tS6L6BZZLQNgIIjKqFk9AszQ0x5tvANKykwD2e4YzaYF3rqHQsLBP0wOxao7KRWbfJiYVZniA4rTZRPN6OSn7r1oHgESnKNYFjZuw64rTQuitvIP8Fq2kihUIKRWVW6Zv1TB355JAhwVENJD8RwXLjl7RNI/Weywbt2fW3VN4G1CcvlpGFvlttqjYx5vJICsfoSQIDAQAB</string>
+    <string name="app_name">WiFi Protector VPN</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="vpn_security_enabled">Connected. VPN security enabled.</string>
+    <string name="licence_key">Licence key</string>
+    <string name="enter_licence_key">To activate the full version of the app enter your WiFi Protector activation code</string>
+    <string name="activating">Activating…</string>
+    <string name="activated">Activated!</string>
+    <string name="account_activated">Your account has been activated.</string>
+    <string name="licence_expired">Your licence has expired.</string>
+    <string name="licence_not_valid">Your activation code is not valid. Please try again.</string>
+    <string name="enter_licence">Enter activation code</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="limit_exceeded">Free VPN limit reached.</string>
+    <string name="upgrade_to_unlock">You can upgrade the app to have it unlimited.</string>
+    <string name="cant_connect">Can\'t connect</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="subscription_cancelled">Cancelled</string>
+    <string name="subscription">Subscription</string>
+    <string name="no_subscription">No subscription</string>
+    <string name="automatic_selection_description">* we automatically select the fastest server for your location</string>
+    <string name="auto_selection">Auto selection *</string>
+    <string name="vpn_protection_desc">A VPN (Virtual Private Network) can be thought of as your private tunnel between your device and the Internet. </string>
+    <string name="vpn_protection_desc_2">This, effectively, makes all communication to and from your mobile ‘invisible’ to anyone around you. In fact, your data (information) is encrypted making it meaningless to anyone else. The Wifi Protector VPN uses OpenVPN technology which is the most secure VPN protocol available today.</string>
+    <string name="free_for_limited_time">\u2022 100% FREE for 1 hour per day
+        \n\u2022 Easy to use
+        \n\u2022 All your web browsing is protected by 256 bit encryption
+        \n\u2022 Hides your real IP address and gives you anonymity and freedom
+        \n\u2022 Select from 20+ countries to connect to</string>
+    <string name="what_is_vpn">What is VPN?</string>
+    <string name="time_limit_exceeded">Your 1h free VPN limit for today has expired. Select subscription below and upgrade to full version now.</string>
+    <string name="vpn_is_off">VPN protection is off</string>
+    <string name="upgrade_to_full_version">Upgrade to full protection</string>
+    <string name="not_now">Not now</string>
+    <string name="select_from_countries">Select from 20+ countries to connect to</string>
+    <string name="unlimited_usage">Unlimited usage</string>
+    <string name="fastest_vpn_servers">Fastest VPN servers</string>
+    <string name="premium_support">Premium support</string>
+    <string name="wp_windows_offer_description"><![CDATA[With a yearly subscription same user will have access to the award winning PC version of Wifi Protector (> 1 Million users and counting) completely FREE.]]></string>
+    <string name="pro_tip">Pro tip:</string>
+    <string name="ovpn_description">Copyright 2002\-2010 OpenVPN Technologies, Inc. \nOpenVPN is a trademark of OpenVPN Technologies, Inc.</string>
+    <string name="openvpn_arne_schwabe">Copyright 2012 \nArne Schwabe</string>
+    <string name="openvpn_for_android">OpenVPN for Android</string>
+    <string name="support">Support</string>
+    <string name="support_url" translatable="false">https://www.wifiprotector.com/support.aspx</string>
+    <string name="support_url_mobile" translatable="false">https://www.wifiprotector.com/mobile_support.aspx</string>
+    <string name="server_is_not_responding_toast">This server cannot be reached right now. Please try again or use different server</string>
+    <string name="servers_are_not_responding_toast">These servers cannot be reached right now. Please try again in couple of minutes</string>
+    <string name="licence_key_expired">Expired activation code</string>
+    <string name="licence_key_expired_desc">Your activation code has expired. Please contact support@wifiprotector.com</string>
+    <string name="version">Version</string>
+    <string name="updating_servers">Updating servers..</string>
+    <string name="refresh">Refresh</string>
+    <string name="licence">Licence</string>
+    <string name="copyright">Copyright</string>
+    <string name="optimal_software">Optimal Software s.r.o.</string>
+    <string name="plans">Plans</string>
+    <string name="benefits">Features</string>
+    <string name="vpn_server">Your VPN server:</string>
+    <string name="free_user">Free user</string>
+    <string name="have_licence">I have a license</string>
+    <string name="would_like_to_buy">I would like to buy a subscription</string>
+    <string name="licences">Licences</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="action_settings">Settings</string>
+</resources>

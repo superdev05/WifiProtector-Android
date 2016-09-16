@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-uk/arrays.xml -->
+    <eat-comment/>
+    <string-array name="tls_directions_entries">
+    <item>0</item>
+    <item>1</item>
+    <item>Невказано</item>
+  </string-array>
+    <string-array name="vpn_types">
+    <item>Сертифікати</item>
+    <item>Файл PKCS12</item>
+    <item>Android сертифікат</item>
+    <item>Ім’я користувача/Пароль</item>
+    <item>Статичні ключі</item>
+    <item>Користувач/Пароль + Сертифікати</item>
+    <item>Користувач/Пароль + PKCS12 </item>
+    <item>Користувач/Пароль + Android</item>
+  </string-array>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-uk/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на головний"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Інші опції"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Переглянути всі"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Надіслати запит"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Надіслати через"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Надіслати через %s"</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="about">Про</string>
+    <string name="add">Додати</string>
+    <string name="add_new_vpn_hint">Використовуйте &lt;img src=\"ic_menu_add\"/> піктограму для додання нової VPN</string>
+    <string name="add_profile">додати профіль</string>
+    <string name="add_profile_name_prompt">Введіть ім\'я нового профілю</string>
+    <string name="address">Адреса сервера:</string>
+    <string name="advanced">Додатково</string>
+    <string name="allow_vpn_changes">Дозволити зміни в профілі VPN</string>
+    <string name="allowed_apps">Дозволенi додатки: %s</string>
+    <string name="app">OpenVPN для Android</string>
+    <string name="auth_dialog_message">Введіть the authentication digest для OpenVPN. Залиште порожнім для використання стандартних значень.</string>
+    <string name="auth_dialog_title">Введіть метод автентифікації пакетів</string>
+    <string name="auth_pwquery">Пароль</string>
+    <string name="auth_username">Ім\'я користувача</string>
+    <string name="backup_dns">Резервний DNS-сервер</string>
+    <string name="basic">Основне</string>
+    <string name="baterry_consumption">У моїх особистих тестах основна причина високого споживання батареї OpenVPN є підтримуючі пакети. Більшість OpenVPN сервера мають директиви конфігурації, як \"залишайся в живих 10 60\", які перекладаються як підтримуючий пакет від клієнта до сервера і від сервера до клієнта кожні десять секунд. &lt;p> Хоча ці пакети є невеликими і не використовують багато трафіку, вони тримають мережі мобільного радіозв\'язку зайнятими і збільшвють споживання енергії. (Див. також &lt;a href=\"http://developer.android.com/training/efficient-downloads/efficient-network-access.html#RadioStateMachine\">Радіо State Machine | Android Developers &lt;/a>) &lt;p> Цей параметр надсилання пакетів не може бути змінений на клієнті. Тільки системний адміністратор OpenVPN може змінити настройки. &lt;p> На жаль, використання цього параметру більше 60 секунд з UDP має проблеми з деякими шлюзами NAT, які закінчуються стан підключення після короткого тайм-ауту (60 с в моїх тестах). Використання TCP з довгими затримками працює, але має проблему TCP над TCP. (Див. &lt;a href=\"http://sites.inka.de/bigred/devel/tcp-tcp.html\"> Чому TCP над TCP є поганим середовищем&lt;/a>)</string>
+    <string name="battery_consumption_title">Споживання акумулятора</string>
+    <string name="broken_image_cert">Відбулася помилка при спробі виклику системного діалогу вибору сертифікатів Android 4.0 + Цього не повинно було статися на стандартній прошивці. Можливо у вашій прошивці зіпсовано сховище сертифікатів</string>
+    <string name="broken_image_cert_title">Помилка показу вибору сертифіката</string>
+    <string name="broken_images">Пошкоджені зображення</string>
+    <string name="broken_images_faq">&lt;p> Відомо, що офіційні прошивки HTC мають дивні проблеми з маршрутизацією, викликані тим, що трафік не йде через тунель (див. також &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=18\">Issue 18&lt;/a> в баг-трекері) &lt;/p> &lt;p> Також повідомлялося, що в офіційних прошивках SONY для Xperia arc S і Xperia Ray повністю відсутній сервіс VPNService. Також інші прошивки від Sony можуть мати такі ж проблеми. (див. також &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=29\">Issue 29&lt;/a> в баг-трекері) &lt;/p> &lt;p> У деяких вбудованих прошивках модуль tun може бути відсутнім або мати не правильні права файлу-пристрою /dev/tun. Деякі CM9 прошивки можуть вимагати виправлення власника в головних налаштуваннях. &lt;/p> &lt;p> Важлива інформація: Якщо у вас прошивка із зазначеними проблемами, повідомте про це виробнику пристрою. Чим більше користувачів повідомить про проблему виробнику, тим більше шансів, що цей виробник зволить прибрати свої недоробки. &lt;/p></string>
+    <string name="building_configration">Побудова конфігурації…</string>
+    <string name="built_by">побудована по %s</string>
+    <string name="ca_title">Сертифікат CA</string>
+    <string name="cancel">Скасувати</string>
+    <string name="cancel_connection">Від\'єднати</string>
+    <string name="cancel_connection_long">Відключити VPN</string>
+    <string name="cancel_connection_query">Відключення активних VPN/скасувати спробу підключення?</string>
+    <string name="cannotparsecert">Неможливо відобразити інформацію про сертифікат</string>
+    <string name="cant_read_folder">Не вдалося прочитати каталог</string>
+    <string name="check_remote_tlscert">Перевіряє, чи є сервер використовує сертифікат з сервера TLS розширень (--remote-cert-tls server)</string>
+    <string name="check_remote_tlscert_title">Очікувати TLS сертифікат сервера</string>
+    <string name="cipher_dialog_title">Введіть метод шифрування</string>
+    <string name="clear">Очистити</string>
+    <string name="clear_log">очистити журнал</string>
+    <string name="clearappsdialog">Очистити список дозволених зовнішніх програм \nПоточний список дозволених програм:\n\n%s</string>
+    <string name="client_certificate_title">Сертифікат клієнта</string>
+    <string name="client_key_title">Ключ сертифіката клієнта</string>
+    <string name="client_no_certificate">Немає сертифіката</string>
+    <string name="client_pkcs12_title">Файл PKCS12</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-uk/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Для роботи додатка потрібно оновити Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Цей додаток запуститься, лише коли ви оновите Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Оновити Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Увімкнути сервіси Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Цей додаток не працюватиме, доки ви не ввімкнете сервіси Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Увімкніть сервіси Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Запит від додатка <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Установити сервіси Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Ця програма не запуститься без Google Play Послуг, яких немає у вашому телефоні."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Ця програма не запуститься без Google Play Послуг, яких немає на вашому планшетному ПК."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Установіть сервіси Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Указаний обліковий запис не існує на цьому пристрої. Виберіть інший обліковий запис."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Недійсний обліковий запис"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Щоб додаток працював, потрібно ввімкнути сервіси Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Для під’єднання до сервісів Google Play потрібне з’єднання з мережею."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Помилка мережі"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Щоб додаток працював, потрібно встановити сервіси Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Щоб додаток працював, потрібно оновити сервіси Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Помилка сервісів Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Не вдалося ввійти в указаний обліковий запис. Виберіть інший."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Помилка під час входу"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Невідома проблема із сервісами Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Ваш пристрій не підтримує Сервіси Google Play, від яких залежить робота деяких програм. Зверніться по допомогу до виробника."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Сервіси Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Оновити"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Цей додаток не запуститься, доки ви не оновите сервіси Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Оновіть сервіси Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Відкрити на телефоні"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Увійти"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Увійти в обл.запис Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Цей додаток використовує один або декілька сервісів Google Play, які зараз недоступні. Зверніться по допомогу до розробника."</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-uk/strings.xml -->
+    <eat-comment/>
+    <string name="complete_dn">Повний DN</string>
+    <string name="config_error_found">Помилка конфігурації</string>
+    <string name="configuration_changed">Конфігурація змінена</string>
+    <string name="configure_the_vpn">Налаштувати VPN</string>
+    <string name="connection_retries">Спроб підключення</string>
+    <string name="connectretrymessage">Кількість секунд очікування між спробами підключення.</string>
+    <string name="connectretrywait">Секунд між підключеннями</string>
+    <string name="converted_profile">імпортований профіль</string>
+    <string name="converted_profile_i">імпортований профіль: %d</string>
+    <string name="copied_entry">Скопійовано запис журналу до буферу обміну</string>
+    <string name="copying_log_entries">Копіювання записів журналу</string>
+    <string name="copyright_guicode">Початковий код і відстеження проблем доступні по http://code.google.com/p/ics-openvpn/</string>
+    <string name="copyright_others">Ця програма використовує такі компоненти; перегляньте вихідний код для повної інформації про ліцензії</string>
+    <string name="crashdump">Звіт про крах</string>
+    <string name="custom_config_summary">Укажіть налаштовувані параметри. Використовуйте з обережністю!</string>
+    <string name="custom_config_title">Увімкнути налаштовувані параметри</string>
+    <string name="custom_option_warning">Введіть додаткові параметри OpenVPN. Використовуйте цю можливість з великою обережністю. Якщо ви вважаєте, що відсутній важливий параметр, то зв\'яжіться з автором</string>
+    <string name="custom_options_title">Власні параметри</string>
+    <string name="custom_route_format_error">Помилка аналізу налаштованих маршрутів</string>
+    <string name="custom_route_message"> Введіть користувацькі маршрути. Тільки введіть адресу призначення в форматі CIDR. \"10.0.0.0/8 2002::/16\" буде використано для 10.0.0.0/8 і 2002::/16 мереж через VPN.</string>
+    <string name="custom_routes_title">Власні маршрути</string>
+    <string name="custom_routes_title_excluded">Виключені Мережі</string>
+    <string name="debug_build">відлагоджувальна збірка</string>
+    <string name="default_route_summary">Перенаправляти увесь трафік через VPN</string>
+    <string name="dns">DNS</string>
+    <string name="dns1_summary">DNS сервер для використання.</string>
+    <string name="dns_add_error">Не можливо додати DNS-сервер \"%1$s\", відхилено системою: %2$s</string>
+    <string name="dns_override_summary">Використовувати ваші власні DNS сервери</string>
+    <string name="dns_server">DNS-сервер</string>
+    <string name="dns_server_info">DNS-сервер: %1$s, Домен: %2$s</string>
+    <string name="donatewithpaypal">Ви можете &lt;a href=\"https://www.paypal.com/cgi-bin/webscr?hosted_button_id=R2M6ZP9AF25LS&amp;amp;cmd=_s-xclick\">пожертвувати через PayPal&lt;/a> </string>
+    <string name="duplicate_profile_name">Введіть унікальне ім\'я профілю</string>
+    <string name="edit_profile_title">Редагується \"%s\"</string>
+    <string name="edit_vpn">Змінити налаштування VPN</string>
+    <string name="encryption">Шифрування</string>
+    <string name="encryption_cipher">Алгоритм шифрування</string>
+    <string name="enter_tlscn_dialog">Перемикач способу перевірки DN сертифікату (eg C = DE, L = Paderborn, OU = Avian IP Carriers, CN = openvpn.blinkt.de) \n \nМожливо значення: повний DN, RDN (для прикладу openvpn.blinkt.de) або тільки преффікс RDN для перевірки. \n \nПрі використанні преффікса RDN, наприклад \"Server\", значення будуть \"Server-1\", \"Server-2\" і т.д. \n \nПрі порожньому текстовому полі перевірка проводитиметься по імені хоста. \n \nДля подробиць дивіться керівництво для OpenVPN 2.3.1 +, розділ-verify-x509-name</string>
+    <string name="enter_tlscn_title">Об\'єкт віддаленого сертифіката</string>
+    <string name="error">"Помилка: "</string>
+    <string name="error_importing_file">Помилка імпорту файлу</string>
+    <string name="error_reading_config_file">Помилка читання файлу конфігурації</string>
+    <string name="error_rsa_sign">Помилка підпису з використанням ключа із сховища Андроїд %1$s: %2$s</string>
+    <string name="export_config_title">ICS Openvpn конфігурація</string>
+    <string name="extracahint">Сертифікат СА звичайно повертається з сховища ключів Андроїд. Вкажіть окремий сертифікат, якщо ви отримали помилки при перевірці сертифікату.</string>
+    <string name="faq">ЧаПи</string>
+    <string name="faq_copying">Для копіювання одного запису журналу натисніть і утримуйте цей запис. Щоб скопіювати/надіслати увесь журнал використовуйте параметр Надіслати журнал. Використовуйте апаратну кнопку меню, якщо ви не бачите у графічному інтерфейсі.</string>
+    <string name="faq_duplicate_notification">Якщо в Android виникає нестача оперативної пам\'яті (RAM), непотрібні служби і програми зупиняються. Через це переривається встановлене VPN-з\'єднання. Щоб уникнути цього, програму потрібно запускати з підвищеним пріоритетом. Для запуску з високим пріоритетом програма повинна вивести попередження. Піктограма  ключа сповіщення виводиться системою, як описано в попередньому пункті ЧаП. Це не вважається як програмне сповіщення з метою запуску з вищим пріоритетом.</string>
+    <string name="faq_duplicate_notification_title">Дублювати сповіщення</string>
+    <string name="faq_hint">Не забудьте заглянути у ЧаП. Там також є короткий посібник.</string>
+    <string name="faq_howto">&lt;p> Використовуйте готову конфігурацію (протестовану на вашому комп\'ютері або отриману від вашого провайдера) &lt;/p> &lt;p> Якщо це простий файл без pem/pks12 ви можете відправити його по email на свій пристрій. Якщо ж це декілька файлів, ви можете використовувати їх зі своєї карти пам\'яті. &lt;/p> &lt;p> Просто натисніть на .сonf файл або виберіть його за допомогою меню в програмі для імпорту конфігурації &lt;/p> &lt;p> Якщо програма видасть помилку про брак деяких файлів, просто помістіть ці файли на карту пам\'яті &lt;/p> &lt;p> Натисніть Збереження для додавання імпортованої конфігурації в програму &lt;/p> &lt;p> Запустіть ваш VPN-тунель, натиснувши на його назву в списку &lt;/p> &lt;p> Якщо при запуску виникли помилки спробуйте розібратися і усунути їх. &lt;/p></string>
+    <string name="faq_howto_shortcut">Ви можете розмістити ярлик для запуску OpenVPN на робочому столі. Залежно від програми домашнього екрану ви можете додати ярлик або віджет.</string>
+    <string name="faq_howto_title">Швидкий старт</string>
+    <string name="faq_routing_title">Конфігурація маршрутизації/інтерфейсу</string>
+    <string name="faq_security">"Так як OpenVPN чутливий до безпеки, то будуть розумними кілька зауважень щодо захисту. Всі дані на sd карті по суті не захищені. Кожний додаток може прочитати їх (наприклад ця програма не вимагає спеціальних привілеїв на sd карту). Дані цього додатка можуть бути прочитані тільки ним самим. При використанні опції імпорту для cacert/cert/key в діалоговому вікні файла, дані зберігаються в VPN профілі. VPN профілі доступні тільки цьому додатку. (Потім не забудьте видалити копії на sd карті). Незважаючи на те, що дані доступні тільки цьому додатку, вони все ще незашифровані. Шляхом отримання прав суперкористувача (root) на телефоні або іншими хитрощами можливо витягти дані. Також збережені паролі зберігаються в звичайному текстовому вигляді. Наполегливо рекомендується pkcs12 файли імпортувати в android сховище ключів. "</string>
+    <string name="faq_security_title">Вимоги до безпеки</string>
+    <string name="faq_shortcut">Ярлик для запуску</string>
+    <string name="faq_system_dialogs">Попередження VPN з\'єднання повідомляє вам, що цей додаток може перехоплювати весь мережевий трафік, і повідомляється системою попереджень VPNService API. \nСповіщення про VPN з\'єднання (символ \"Ключа\") також формується системою Android для сигналізації про вихідне VPN з\'єднання. У деяких прошивках це сповіщення супроводжується сигналом. \nAndroid використовує ці cповіщення для вашої власної безпеки і їх не можна обійти. (На жаль, на деяких прошивках також  сповіщення супроводжується звуком)</string>
+    <string name="faq_system_dialogs_title">Повідомлення про підключення та звук сповіщеня</string>
+    <string name="faq_tap_mode">TAP режим не можливий в VPN API без рут. З цієї причини цей додаток не може надати підтримку TAP</string>
+    <string name="faq_tethering">Функція транзитного з\'єднання на Android (через WiFi, USB або Bluetooth) та VPNService API (використовуване цією програмою) не працюють разом. Детальніше в &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=34\"> Issue 34 &lt;/a></string>
+    <string name="file_explorer_tab">Провідник файлів</string>
+    <string name="file_icon">Піктограма файлу</string>
+    <string name="file_nothing_selected">Слід вибрати файл</string>
+    <string name="file_select">Виберіть…</string>
+    <string name="float_summary">Дозволити пакети аутентифікації з будь-якої IP-адреси</string>
+    <string name="float_title">Дозволити \"плаваючий\" сервер</string>
+    <string name="full_licenses">Повні ліцензії</string>
+    <string name="generalsettings">Параметри</string>
+    <string name="generated_config">Згенерована конфігурація</string>
+    <string name="generated_config_summary">Показує згенерований файл конфігурації OpenVPN</string>
+    <string name="getproxy_error">Помилка отримання параметрів проксі: %s</string>
+    <string name="help_translate">Ви можете допомогти в перекладі, відвідавши http://crowdin.net/project/ics-openvpn/invite</string>
+    <string name="ics_openvpn_log_file">ICS OpenVPN файл журналу</string>
+    <string name="ignore">Ігнорувати</string>
+    <string name="ignore_routes_summary">Ігнорувати маршрути, надіслані сервером.</string>
+    <string name="ignored_pushed_routes">Ігнорувати надіслані маршрути</string>
+    <string name="import_config">Імпорт конфігурації OpenVPN</string>
+    <string name="import_configuration_file">Імпорт файлу конфігурації</string>
+    <string name="import_content_resolve_error">Не вдалося прочитати профіль для імпорту</string>
+    <string name="import_could_not_open">Не можливо знайти файл %1$s, згаданий у імпортованому файлі конфігурації</string>
+    <string name="import_done">Файл конфігурації успішно прочитаний.</string>
+    <string name="import_error_message">Не вдалося імпортувати файл із файлової системи</string>
+    <string name="import_log">Журнал імпорту :</string>
+    <string name="import_vpn">Імпорт</string>
+    <string name="import_warning_custom_options">Ваша конфігурація мала кілька варіантів конфігурації, які не відображені в інтерфейсі конфігурації. Ці варіанти були додані в якості користувача параметрів конфігурації. Призначена для користувача конфігурація відображається нижче:</string>
+    <string name="imported_from_file">[Імпортовано з: %s]</string>
+    <string name="importing_config">Імпорт файлу конфігурації з джерела %1$s</string>
+    <string name="importpkcs12fromconfig">Імпорт PKCS12 з конфігурації у сховищі ключів Андроїд</string>
+    <string name="inline_file_data">[[Вбудований файл даних]]</string>
+    <string name="inline_file_tab">Вбудований файл</string>
+    <string name="ip_not_cidr">Отримано інформацію інтерфейсу %1$s і %2$s, друга адреса є віддаленою адресою каналу. Використовується мережева маска /32 для локальної IP-адреси. Режим, встановлений OpenVPN: \"%3$s\".</string>
+    <string name="ipdns">IP-адреса та DNS</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv4_address">IPv4-адреса</string>
+    <string name="ipv4_dialog_title">Введіть адресу IPv4/маску в CIDR форматі (напр., 1.2.3.4/24)</string>
+    <string name="ipv4_format_error">Помилка при розборі адреси IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">IPv6-адреса</string>
+    <string name="ipv6_dialog_tile">Введіть адресу IPv6/маску в CIDR форматі (напр., 2000:dd::23/64)</string>
+    <string name="jelly_keystore_alphanumeric_bug">У деяких версіях Android 4.1 є проблеми, якщо ім\'я сертифікату містить не буквено-цифрові символи (наприклад, пробіли, підкреслення або тире). Спробуйте перевстановити сертифікат без використання спеціальних символів.</string>
+    <string name="keychain_access">Не можна отримати доступ до сховища ключів та сертифікатів Андроїд. Це можливо  спричинено оновлення прошивки або відновленням резервної копії програми чи її налаштувань. Будь ласка, відредагуйте профіль VPN та заново виберіть сертифікат у основних параметрах для створення доступу до сертифікату.</string>
+    <string name="keychain_nocacert">Не вдалося отримати СА сертифікат при читанні із сховища ключів Андроїд. Автентифікація не вдалася.</string>
+    <string name="last_openvpn_tun_config">Відкриття tun інтерфейсу:</string>
+    <string name="local_ip_info">Адреса IPv4: %1$s/%2$d IPv6: %3$s MTU: %4$d</string>
+    <string name="location">Розташування</string>
+    <string name="logCleared">Журнал очищено.</string>
+    <string name="log_no_last_vpn">Не вдалося визначити останній підключений профіль для редагування</string>
+    <string name="log_verbosity_level">Рівень деталізації журналу</string>
+    <string name="make_selection_inline">Скопіювати в профіль</string>
+    <string name="menu_add_profile">Додати профіль</string>
+    <string name="menu_import">Імпорт профілю з ovpn файлу</string>
+    <string name="menu_import_short">Імпорт</string>
+    <string name="minidump_generated">OpenVPN впав несподівано. Будь ласка, розгляньте використання параметру \"Надіслати Мінідамп\" в головному меню</string>
+    <string name="mobile_info">Працює на %1$s (%2$s) %3$s, Android API %4$d</string>
+    <string name="mobile_info_extended">Запущено на %1$s (%2$s) %3$s, Android API %4$d, версії %5$s, %6$s</string>
+    <string name="netchange">Перепідключатися при зміні мережі</string>
+    <string name="netchange_summary">Вмикання цього параметру примусить перепідключитися, якщо стан мережі змінився (напр. Wi-Fi/мобільний інтернет)</string>
+    <string name="netstatus">Статус мережі: %s</string>
+    <string name="no_bind">Нема локальної прив\'язки</string>
+    <string name="no_certificate">Потрібно вибрати сертифікат</string>
+    <string name="no_data">Немає даних</string>
+    <string name="no_error_found">Помилок не знайдено</string>
+    <string name="no_external_app_allowed">Не дозволяється використовувати зовнішнє API</string>
+    <string name="no_keystore_cert_selected">Потрібно вибрати сертифікат користувача</string>
+    <string name="no_vpn_profiles_defined">VPN профіль не визначено.</string>
+    <string name="no_vpn_support_image">Ваша прошивка не підтримує VPNService API, вибачте :(</string>
+    <string name="nobind_summary">Не прив\'язувати до локальної адреси і порту</string>
+    <string name="notifcation_title">OpenVPN - %s</string>
+    <string name="notifcation_title_notconnect">Не підключено</string>
+    <string name="obscure">Приховані параметри OpenVPN. Зазвичай не потрібні.</string>
+    <string name="official_build">Офіційна збірка</string>
+    <string name="onbootrestart">Перепідключати при перезавантаженні</string>
+    <string name="onbootrestartsummary">OpenVPN буде перепідключатися, якщо він був активний в момент вимикання/перезавантаження. Будь ласка, прочитайте ЧаП перед тим, як використовувати цей параметр.</string>
+    <string name="opentun_no_ipaddr">Відмова у відкритті пристрою tun без інформації про IP-адресу</string>
+    <string name="openvpn_log">Журнал OpenVPN</string>
+    <string name="override_dns">Переписати параметри DNS від сервера</string>
+    <string name="owner_fix">Виправити власника /dev/tun</string>
+    <string name="owner_fix_summary">Спробуйте змінити власника для /dev/tun. Деякі прошивки CM9 вимагають цього для коректної роботи API OpenVPN. Потрібний root.</string>
+    <string name="packet_auth">Пакети автентифікації</string>
+    <string name="password">Пароль</string>
+    <string name="pauseVPN">Призупинити VPN</string>
+    <string name="permission_icon_app">Іконка додатка намагається використовувати OpenVPN для Android</string>
+    <string name="persistent_tun_title">Стійкість tun</string>
+    <string name="persisttun_summary">Не повертатися до жодного VPN з\'єднання, коли OpenVPN перепідключається.</string>
+    <string name="pkcs12_file_encryption_key">PKCS12 Ключ шифрування файлу</string>
+    <string name="pkcs12pwquery">Пароль PKCS12</string>
+    <string name="port">Порт сервера:</string>
+    <string name="private_key_password">Пароль закритого ключа</string>
+    <string name="profilename">Ім\'я профілю</string>
+    <string name="prompt">%1$s спроб контролювати %2$s</string>
+    <string name="pull_off_summary">Не запитувати інформацію від сервера. Параметри необхідно вказати нижче.</string>
+    <string name="pull_on_summary">Запити IP адрес, маршрутів та параметрів часу від сервера.</string>
+    <string name="pw_query_hint">(залиште порожнім для запиту на вимогу)</string>
+    <string name="random_host_prefix">Випадковий префікс вузла</string>
+    <string name="random_host_summary">Додає 6 випадкових символів перед іменем вузла</string>
+    <string name="rdn">RDN (загальне ім\'я)</string>
+    <string name="rdn_prefix">RDN префікс</string>
+    <string name="reconnection_settings">Налаштування перепідключення</string>
+    <string name="remote_tlscn_check_summary">Перевірка DN об\'єкта віддаленого сертифіката</string>
+    <string name="remote_tlscn_check_title">Перевірка імені вузла сертифікату</string>
+    <string name="remote_trust">Я довіряю цьому додатку.</string>
+    <string name="remotetlsnote">Імпортована конфігурація використовує застарілий параметр tls-remote, який має інший формат DN.</string>
+    <string name="remove_vpn">Видалити VPN</string>
+    <string name="remove_vpn_query">Видалити VPN профіль \'%s\'?</string>
+    <string name="restart">Перезапустити</string>
+    <string name="restart_vpn_after_change">Після перезапуску VPN застосувати зміни конфігурації. (Пере)запустити VPN тепер?</string>
+    <string name="resumevpn">Відновити VPN</string>
+    <string name="route_not_cidr">Неможливо використовувати вирази %1$s і %2$s як маршрут за стандартом CIDR. використовується /32 як маска підмережі.</string>
+    <string name="route_not_netip">Виправлено маршрут з %1$s/%2$s на %3$s/%2$s</string>
+    <string name="route_rejected">Маршрут відхилено Андроїдом</string>
+    <string name="routes_debug">Встановлені маршрути VpnService: %1$s %2$s</string>
+    <string name="routes_info_excl">Виключені маршрути : %1$s %2$s</string>
+    <string name="routes_info_incl">Маршрути: %1$s %2$s</string>
+    <string name="routing">Маршрутизація</string>
+    <string name="save_password">Зберегти пароль</string>
+    <string name="screen_nopersistenttun">Попередження: Постійний тут не увімкнений для цього VPN. Трафік буде використовувати звичайне інтернет-з\'єднання, коли екран вимкнений.</string>
+    <string name="screenoff_pause">Призупинення зв\'язку в екрані вимкненого стану: менше %1$s у %2$sс.</string>
+    <string name="screenoff_summary">"Пауза VPN, коли екран вимкнений і менш ніж 64 Кб переданих даних за 60с. Коли  „Постійний тун“ увімкнений пауза VPN залишить ваш пристрій без відсутності мережевого підключення. Без параметра „Постійний тун“ пристрій не буде мати ніякого VPN підключення / захисту.</string>
+    <string name="screenoff_title">Пауза VPN з\'єднання після вимкнення екрану</string>
+    <string name="searchdomain">Домен пошуку</string>
+    <string name="secondary_dns_message">Вторинний DNS-сервер використовується, якщо нормальний DNS-сервер недоступний.</string>
+    <string name="select">Вибрати</string>
+    <string name="select_file">Вибрати</string>
+    <string name="send">Надіслати</string>
+    <string name="send_config">Надіслати файл конфігурації</string>
+    <string name="send_logfile">Надіслати файл журналу</string>
+    <string name="send_minidump">Надіслати мінідамп розробнику</string>
+    <string name="send_minidump_summary">Відправляє налагоджувальну інформацію розробнику про останнє аварійне завершення</string>
+    <string name="session_ipv4string">%1$s - %2$s</string>
+    <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
+    <string name="setting_loadtun">Завантажити tun-модуль</string>
+    <string name="setting_loadtun_summary">Спробуйте завантажити модуль ядра tun.ko перш ніж з\'єднатися. Необхідний пристрій з правами root.</string>
+    <string name="settings_auth">Автентифікація/Шифрування</string>
+    <string name="shortcut_profile_notfound">Профіль, вказаний у ярлику, не знайдено</string>
+    <string name="show_log_summary">Показати вікно журналу при з\'єднанні. Вікно журналу може бути завжди дрступним у панелі сповіщень.</string>
+    <string name="show_log_window">Показати вікно журналу</string>
+    <string name="show_password">Показати пароль</string>
+    <string name="speed_waiting">Очікування повідомлення стану…</string>
+    <string name="start_vpn_ticker">Підключення до VPN %s</string>
+    <string name="start_vpn_title">Підключення до VPN %s</string>
+    <string name="state_add_routes">Додавання маршрутів</string>
+    <string name="state_assign_ip">Перепризначення IP-адрес</string>
+    <string name="state_auth">Аутентифікація</string>
+    <string name="state_auth_failed">Помилка автентифікації</string>
+    <string name="state_connected">Підключено</string>
+    <string name="state_connecting">Підключення</string>
+    <string name="state_disconnected">Від\'єднати</string>
+    <string name="state_exiting">Виходимо</string>
+    <string name="state_get_config">Отримання конфігурації клієнта</string>
+    <string name="state_nonetwork">Очікування на використання мережі</string>
+    <string name="state_noprocess">Не працює</string>
+    <string name="state_reconnecting">Повторне підключення</string>
+    <string name="state_resolve">Розпізнавання імен вузлів</string>
+    <string name="state_tcp_connect">Підключення (TCP)</string>
+    <string name="state_wait">Очікування відповіді сервера</string>
+    <string name="static_keys_info">Для статичної конфігурації ключі авторизації TLS будуть використовуватися як статичні ключі</string>
+    <string name="statusline_bytecount">↓%2$s/s %1$s - ↑%4$s/s %3$s</string>
+    <string name="tap_faq2">Знову? Жартуєш? Ні, TAP режим дійсно не підтримується і надсилання все більше листів з питаннями чи це буде підтримуватись не допоможе.</string>
+    <string name="tap_faq3">Втретє? Насправді можна було б написати TAP емулятор на основі TUN який додавав інформацію 2 рівня при відправці і віднімав її при отриманні. Проте для цього TAP емулятора потрібно реалізувати ARP і можливо DHCP клієнта. Я не знаю будь-кого хто міг би цим зайнятися. Зв’яжіться зі мною, якщо ви хочете це зробити.</string>
+    <string name="tap_mode">TAP режим</string>
+    <string name="thanks_for_donation">Дякуємо за пожертвування %s!</string>
+    <string name="timestamp_iso">ISO</string>
+    <string name="timestamps">Часові позначки</string>
+    <string name="title_cancel">Підтвердження скасування</string>
+    <string name="tls_auth_file">Файл авторизації TLS</string>
+    <string name="tls_authentication">Аутентифікація TLS</string>
+    <string name="tls_direction">TLS напрямок</string>
+    <string name="tls_key_auth">Увімкнути автентифікацію по TLS ключу</string>
+    <string name="tls_remote_deprecated">tls-remote (ЗАСТАРІЛЕ)</string>
+    <string name="translationby">Переклад українською від wvolov</string>
+    <string name="tun_error_helpful">На деяких користувацьких прошивках ICS права на /dev/tun можуть бути невірними або модуль tun може бути взагалі відсутнім. Для прошивок CM9 спробуйте виправити власника у загальних налаштуваннях</string>
+    <string name="tun_open_error">Не вдалося відкрити інтерфейс tun</string>
+    <string name="useLZO">Стиснення LZO</string>
+    <string name="useTLSAuth">Використовувати TLS аутентифікацію</string>
+    <string name="use_default_title">Використовувати типовий маршрут</string>
+    <string name="use_pull">Запитувати параметри</string>
+    <string name="use_system_proxy">Використовувати системний проксі</string>
+    <string name="use_system_proxy_summary">Використовувати системну конфігурацію HTTP/HTTPS проксі для з\'єднання.</string>
+    <string name="using_proxy">Використовується проксі %1$s %2$d</string>
+    <string name="version_info">%1$s %2$s</string>
+    <string name="vpn_import_hint">Використовуйте &lt;img src=\"ic_menu_archive\"/> піктограму для імпорту існуючого (.ovpn or .conf) профілю з вашої карти пам\'яті.</string>
+    <string name="vpn_launch_title">Підключення до VPN</string>
+    <string name="vpn_list_title">Профілі</string>
+    <string name="vpn_shortcut">Ярлик OpenVPN</string>
+    <string name="vpn_tethering_title">VPN і тетерінг</string>
+    <string name="vpn_type">Тип</string>
+    <string name="vpnbehaviour">Поведінка VPN</string>
+    <string name="warn_no_dns">Жодний DNS сервер не використовується. Дозвіл імен може не працювати. Розгляньте питання про створення користувацьких серверів DNS. Зверніть увагу, що Android буде продовжувати використовувати налаштування проксі-сервера, вказаного для вашого мобільного / Wi-Fi з\'єднання, коли не задано DNS сервери.</string>
+</resources>

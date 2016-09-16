@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">Připojit</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="vpn_security_enabled">Připojeno. Povoleno VPN zabezpečení.</string>
+    <string name="licence_key">Licenční klíč</string>
+    <string name="enter_licence_key">Zadejte svůj aktivační klíč pro WiFi Protector, abyste aktivovali plnou verzi programu </string>
+    <string name="activating">Aktivuji…</string>
+    <string name="activated">Aktivováno!</string>
+    <string name="account_activated">Váš účet byl aktivován.</string>
+    <string name="licence_expired">Vaše licence vypršela.</string>
+    <string name="licence_not_valid">Váš aktivační kód není platný. Zkuste to prosím znovu.</string>
+    <string name="enter_licence">Zadejte aktivační klíč</string>
+    <string name="unknown_error">Neznámá chyba</string>
+    <string name="limit_exceeded">Dosažen limit VPN zdarma.</string>
+    <string name="upgrade_to_unlock">Chcete-li neomezenou verzi, pak můžete provést upgrade.</string>
+    <string name="cant_connect">Nelze připojit</string>
+    <string name="no_internet_connection">Neexistuje internetové připojení</string>
+    <string name="subscription_cancelled">Stornováno</string>
+    <string name="subscription">Předplatné</string>
+    <string name="no_subscription">Neexistuje předplatné </string>
+    <string name="automatic_selection_description">* automaticky vybíráme nejrychlejší server pro vaše umístění</string>
+    <string name="auto_selection">Automatický výběr *</string>
+    <string name="vpn_protection_desc">VPN (Virtuální privátní síť) si lze představit jako privátní tunel mezi vaším zařízením a internetem. </string>
+    <string name="vpn_protection_desc_2">Tím se účinně všechna komunikace z a do vašeho mobilu stane ‘neviditelnou’ pro ostatní. Vaše data (informace) jsou navíc šifrována a proto jsou pro ostatní bezcenná. Wifi Protector VPN používá technologii OpenVPN, která je nejbezpečnějším v současné době dostupným VPN protokolem.</string>
+    <string name="free_for_limited_time">\u2022 100% ZDARMA 1 hodinu denně
+        \n\u2022 Snadno se používá 
+        \n\u2022 Veškeré vaše prohlížení webu je chráněno 256 bitovým šifrováním 
+        \n\u2022 Skrývá vaši skutečnou IP adresu a poskytuje vám anonymitu a svobodu
+        \n\u2022 Vyberte si z více než 20 zemí, kde se můžete připojit</string>
+    <string name="what_is_vpn">Co je to VPN?</string>
+    <string name="time_limit_exceeded">Váš limit 1 hodiny VPN zdarma vypršel. Níže vyberte předplatné a proveďte nyní upgrade na plnou verzi.</string>
+    <string name="vpn_is_off">Ochrana VPN je vypnuta</string>
+    <string name="upgrade_to_full_version">Proveďte upgrade na plnou verzi</string>
+    <string name="not_now">Nyní ne</string>
+    <string name="select_from_countries">Vyberte si z více než 20 zemí, kde se můžete připojit</string>
+    <string name="unlimited_usage">Neomezené používání</string>
+    <string name="fastest_vpn_servers">Nejrychlejší VPN servery</string>
+    <string name="premium_support">Prémiová podpora </string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Roční předplatné poskytuje stejnému uživateli přístup k PC verzi oceněné aplikace Wifi Protector (s více než 1 miliónem uživatelů a stále přibývají) naprosto ZDARMA.
+        ]]></string>
+    <string name="pro_tip">Profesionální tip:</string>
+    <string name="support">Podpora</string>
+    <string name="server_is_not_responding_toast">Nelze se nyní připojit k tomuto serveru. Zkuste to prosím znovu nebo použijte jiný server</string>
+    <string name="servers_are_not_responding_toast">K těmto serverům se nelze nyní připojit. Zkuste to prosím znovu za několik minut</string>
+    <string name="licence_key_expired">Vypršený aktivační kód </string>
+    <string name="licence_key_expired_desc">Vás aktivační kód vypršel. Kontaktujte prosím support@wifiprotector.com</string>
+    <string name="version">Verze</string>
+    <string name="updating_servers">Aktualizuji servery..</string>
+    <string name="refresh">Obnovit</string>
+    <string name="licence">Licence</string>
+    <string name="copyright">Copyright</string>
+    <string name="plans">Plány</string>
+    <string name="benefits">Funkce</string>
+    <string name="vpn_server">Váš VPN server:</string>
+    <string name="free_user">Bezplatný uživatel</string>
+    <string name="have_licence">Mám licenci</string>
+    <string name="would_like_to_buy">Chtěl(a) bych koupit licenci </string>
+    <string name="licences">Licence</string>
+    <string name="next">Dále</string>
+    <string name="start">Spustit</string>
+    <string name="action_settings">Nastavení</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky_darker">#246fb9</color>
+    <color name="sky_dark">#2d72d9</color>
+    <color name="sky_primary">#246fb9</color>
+    <color name="sky_light">#13b7d2</color>
+    <integer-array name="sky">
+        <item>@color/sky_darker</item>
+        <item>@color/sky_dark</item>
+        <item>@color/sky_primary</item>
+        <item>@android:color/white</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">Bağlan</string>
+    <string name="disconnect">Bağlantıyı kes</string>
+    <string name="vpn_security_enabled">Bağlandı. VPN güvenliği etkinleştirildi.</string>
+    <string name="licence_key">Lisans anahtarı</string>
+    <string name="enter_licence_key">Uygulamanın tam sürümünü etkinleştirmek için WiFi Protector etkinleştirme kodunuzu girin</string>
+    <string name="activating">Etkinleştiriliyor...</string>
+    <string name="activated">Etkinleştirildi!</string>
+    <string name="account_activated">Hesabınız etkinleştirildi.</string>
+    <string name="licence_expired">Lisansınızın geçerliliği sona erdi..</string>
+    <string name="licence_not_valid">Etkinleştirme kodunuz geçerli değil. Lütfen yeniden deneyin.</string>
+    <string name="enter_licence">Etkinleştirme kodunu girin</string>
+    <string name="unknown_error">Bilinmeyen hata</string>
+    <string name="limit_exceeded">Ücretsiz VPN sınırına ulaşıldı.</string>
+    <string name="upgrade_to_unlock">Sınırsız olarak kullanmak için uygulamayı yükseltebilirsiniz.</string>
+    <string name="cant_connect">Bağlanamıyor</string>
+    <string name="no_internet_connection">Internet bağlantısı yok</string>
+    <string name="subscription_cancelled">İptal edildi</string>
+    <string name="subscription">Abonelik</string>
+    <string name="no_subscription">Abonelik yok</string>
+    <string name="automatic_selection_description">* konumunuz için en hızlı sunucu otomatik olarak seçilir</string>
+    <string name="auto_selection">Otomatik seçim *</string>
+    <string name="vpn_protection_desc">Bir VPN (Sanal Özel Ağ), cihazınız ile Internet arasındaki özel tüneliniz olarak düşünülebilir.</string>
+    <string name="vpn_protection_desc_2">Böylece etkin bir şekilde çevrenizdeki insanlar tarafından "görülmeyecek" şekilde mobil cihazınızdan iletişim kurabilirsiniz. Aslında verileriniz (bilgileriniz) şifrelenmiş olup başkaları için anlamsız hale getirilir. Wifi Protector VPN, günümüzün en güvenli protokolü olan güvenli VPN protokolünü kullanır.</string>
+    <string name="free_for_limited_time">\u2022 Her gün 1 saat boyunca %100 ücretsiz
+        \n\u2022 Kullanımı kolay
+        \n\u2022 Tüm Internet gezintiniz 256 bit şifreleme ile korunur
+        \n\u2022 Gerçek IP adresinizi gizleyerek size anonimlik ve özgürlük sunar
+        \n\u2022 Bağlanmak üzere 20\'nin üzerindeki ülke arasından seçim yapın</string>
+    <string name="what_is_vpn">VPN nedir?</string>
+    <string name="time_limit_exceeded">Bugün için 1 saatlik ücretsiz VON limitiniz sona erdi. Lütfen aşağıdan bir abonelik seçin ve hemen tam sürüme yükseltin.</string>
+    <string name="vpn_is_off">VPN koruması kapalı</string>
+    <string name="upgrade_to_full_version">Tam korumaya yükselt</string>
+    <string name="not_now">Şimdi değil</string>
+    <string name="select_from_countries">Bağlanmak üzere 20\'nin üzerindeki ülke arasından seçim yapın</string>
+    <string name="unlimited_usage">Sınırsız kullanım</string>
+    <string name="fastest_vpn_servers">En hızlı VPN sunucuları</string>
+    <string name="premium_support">Premium destek</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Yıllık abonelik ile aynı kullanıcı aynı zamanda Wifi Protector\'un ödüllü bilgisayar sürümüne (sürekli artan 1 milyonun üzerinde kullanıcı sayısı) tamamen ÜCRETSİZ olarak sahip olacaktır.
+        ]]></string>
+    <string name="pro_tip">Profesyonel ipucu:</string>
+    <string name="support">Destek</string>
+    <string name="server_is_not_responding_toast">Bu sunucuya şu anda ulaşılamamaktadır. Lütfen yeniden deneyin ya da farklı bir sunucu kullanın</string>
+    <string name="servers_are_not_responding_toast">Bu sunuculara şu anda ulaşılamamaktadır. Lütfen birkaç dakika sonra yeniden deneyin.</string>
+    <string name="licence_key_expired">Geçerliliği sona ermiş etkinleştirme kodu</string>
+    <string name="licence_key_expired_desc">Etkinleştirme kodunuzun geçerliliği sona ermiş. Lütfen support@wifiprotector.com ile iletişim kurun</string>
+    <string name="version">Sürüm</string>
+    <string name="updating_servers">Sunucular güncelleniyor...</string>
+    <string name="refresh">Yenile</string>
+    <string name="licence">Lisans</string>
+    <string name="plans">Planlar</string>
+    <string name="benefits">Özellikler</string>
+    <string name="vpn_server">VPN sunucunuz:</string>
+    <string name="free_user">Ücretsiz kullanıcı</string>
+    <string name="have_licence">Lisansım var</string>
+    <string name="would_like_to_buy">Bir abonelik almak istiyorum</string>
+    <string name="licences">Lisanslar</string>
+    <string name="next">İleri</string>
+    <string name="start">Başla</string>
+    <string name="action_settings">Ayarlar</string>
+</resources>

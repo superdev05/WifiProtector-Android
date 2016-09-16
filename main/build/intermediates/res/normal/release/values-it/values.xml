@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/arrays.xml -->
+    <eat-comment/>
+    <string-array name="tls_directions_entries">
+    <item>0</item>
+    <item>1</item>
+    <item>Non specificato</item>
+  </string-array>
+    <string-array name="vpn_types">
+    <item>Certificati</item>
+    <item>File PKCS12</item>
+    <item>Certificato Android</item>
+    <item>Utente/Password</item>
+    <item>Chiavi statiche</item>
+    <item>Utente/password + Certificati</item>
+    <item>Utente/Passowrd + PKCS12 </item>
+    <item>Utente/Passsword + Android</item>
+  </string-array>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-it/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="about">Informazioni</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="account_activated">Il tuo account è stato attivato.</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="activated">Attivato!</string>
+    <string name="activating">Attivazione ...</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="add">Aggiungi</string>
+    <string name="add_new_vpn_hint">Usa l\'icona &lt;img src=\"ic_menu_add\"/> per aggiungere una nuova VPN</string>
+    <string name="add_profile">Aggiungi profilo</string>
+    <string name="add_profile_name_prompt">Immettere un nome per identificare il nuovo profilo</string>
+    <string name="address">Indirizzo server:</string>
+    <string name="advanced">Avanzate</string>
+    <string name="advanced_settings">Impostazioni Avanzate</string>
+    <string name="allow_vpn_changes">Abilita modifiche ai profili VPN</string>
+    <string name="allowed_apps">Apps abilitate;%s</string>
+    <string name="app">OpenVPN per Android</string>
+    <string name="appbehaviour">Comportamento dell\'applicazione</string>
+    <string name="auth_dialog_message">Inserisci l\'algoritmo di cifratura digest usato da OpenVPN. Lascia bianco per usare quello di default.</string>
+    <string name="auth_dialog_title">Seleziona il metodo di autenticazione dei pacchetti</string>
+    <string name="auth_pwquery">Password</string>
+    <string name="auth_username">Utente</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="auto_selection">Selezione automatica *</string>
+    <string name="automatic_selection_description">* Selezioniamo automaticamente il server più veloce per la tua posizione</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="backup_dns">Server DNS secondario</string>
+    <string name="basic">Principali</string>
+    <string name="baterry_consumption">Nei miei test personali la ragione principale per l\'alto consumo di batteria con OpenVPN è rappresentata dai pacchetti keepalive. La maggior parte dei server OpneVPN posseggono una direttiva \'keepalive 10 60\' che fa sì che il client e il server scambino dei pacchetti keepalive ogni dieci secondi.&lt;p> Anche se questi pacchetti sono piccoli e non usano molto traffico, essi mantengono impegnata la sezione radio del dispositivo e incrementano il consumo energetico. (Vedere anche &lt;a href=\"http://developer.android.com/training/efficient-downloads/efficient-network-access.html#RadioStateMachine\">The Radio State Machine | Android Developers&lt;/a>) &lt;p> Questa impostazione keepalive non può essere cambiata lato client. Solo l\'amministratore del server OpenVPN può farlo.&lt;p> Purtroppo usando un keepalive maggiore di 60 secondi con UDP alcuni gateway NAT fanno cadere la connessione per via di un timeout su inattività. Usando TCP con un keepalive lungo il timeout funziona, ma il tunneling su TCP presenta basse prestazioni su connessioni con alta perdita di pacchetti. (Vedere &lt;a href=\"http://sites.inka.de/bigred/devel/tcp-tcp.html\">Why TCP Over TCP Is A Bad Idea&lt;/a>)</string>
+    <string name="battery_consumption_title">Consumo della batteria</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="benefits">Caratteristiche</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="blocklocal_summary">Le reti direttamente collegate alle interfacce locali non verranno instradate attraverso la VPN. Deselezionando questa opzione si inoltrerà tutto il traffico dalle reti locali alla VPN.</string>
+    <string name="blocklocal_title">Ignora VPN per le reti locali</string>
+    <string name="broken_image_cert">Si è incappati in una eccezione tentando di visualizzare la finestra di selezione dei certificati di Android 4.0+. Questo non dovrebbe mai accadere dato che questa è una caratteristica standard di Android 4.0+. Forse il supporto al salvataggio dei certificati del tuo firmware di Android è corrotto.</string>
+    <string name="broken_image_cert_title">Errore nel mostrare il certificato selezionato</string>
+    <string name="broken_images">Firmware bacati</string>
+    <string name="broken_images_faq">&lt;p>E\' noto che le immagini ufficiali di HTC presentano uno strano problema di routing causando per cui il traffico non fluisce nel tunnel (Vedere &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=18\">Issue 18&lt;/a> nella gestione dei bug.)&lt;/p>&lt;p>Le immagini SONY più vecchie per Xperia Arc S e Xperia Ray sono segnalate come completamente mancanti di VPNService. (Vedere anche &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=29\"> Problema 29&lt;/a> nella gestione bug.)&lt;/p>&lt;p> Su immagini personalizzate il modulo tun potrebbe essere mancante oppure i diritti di accesso a /dev/tun potrebbero essere errati. Alcune immagini CM9 hanno bisogno di avere abilitata \'opzione \"Aggiusta proprietà\" nelle \"Opzioni specifiche per il dispositivo\".&lt;/p>&lt;p>Molto importante: se il tuo dispositivo ha un\'immagine Android difettosa, segnalalo al tuo rivenditore. Più persone segnalano un problema al rivenditore, più è probabile che questi lo sistemi.&lt;/p></string>
+    <string name="building_configration">Configurazione in corso…</string>
+    <string name="built_by">compilato da %s</string>
+    <string name="ca_title">Certificato CA</string>
+    <string name="cancel">Annulla</string>
+    <string name="cancel_connection">Scollega</string>
+    <string name="cancel_connection_long">Disconnettere VPN</string>
+    <string name="cancel_connection_query">Disconnetti la VPN in uso/annulli il tentativo di connessione?</string>
+    <string name="cannotparsecert">Non è possibile visualizzare le informazioni del certificato</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="cant_connect">Non si riesce a connettere</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="cant_read_folder">Impossibile leggere la directory</string>
+    <string name="check_remote_tlscert">Controlla se il server utilizza un certificato con estensioni TLS (--remote-cert-tls server)</string>
+    <string name="check_remote_tlscert_title">Attesa di un certificato server TLS</string>
+    <string name="chipher_dialog_message">Inserisci l\'algoritmo di cifratura cipher usato da OpenVPN. Lasciare vuoto per usare quello di default.</string>
+    <string name="cipher_dialog_title">Inserire il metodo di crittografia</string>
+    <string name="clear">Azzera</string>
+    <string name="clear_log">Cancella registro</string>
+    <string name="clearappsdialog">Cancellare la lista delle apps esterne autorizzate?\nLista corrente di applicazioni autorizzate:\n\n%s</string>
+    <string name="client_behaviour">Comportamento Client</string>
+    <string name="client_certificate_title">Certificato client</string>
+    <string name="client_key_title">Chiave del certificato client</string>
+    <string name="client_no_certificate">Nessun certificato</string>
+    <string name="client_pkcs12_title">File PKCS12</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-it/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Un\'applicazione richiede l\'aggiornamento dell\'app Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Questa app funzionerà solo dopo avere aggiornato Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aggiorna Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Attiva Google Play Services"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"L\'app non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Richiesta da <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installa Google Play Services"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"L\'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"L\'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"L\'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Account non valido"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Un\'applicazione richiede l\'attivazione di Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"È necessaria una connessione dati per connettersi a Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Errore di rete"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Un\'applicazione richiede l\'installazione di Google Play Services."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Un\'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Errore durante l\'accesso all\'account specificato. Scegli un altro account."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Accesso non riuscito"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema sconosciuto con Google Play Services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"L\'app non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Questa app richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza."</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="complete_dn">DN completo</string>
+    <string name="config_error_found">Errore nella configurazione</string>
+    <string name="configuration_changed">Configurazione modificata</string>
+    <string name="configure_the_vpn">Configura la VPN</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="connect">Connetti</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="connection_retries">Tentativi di riconnessione</string>
+    <string name="connectretrymessage">Numero di secondi di attesa tra i tentativi di connessione.</string>
+    <string name="connectretrywait">Secondi tra le connessioni</string>
+    <string name="converted_profile">profilo importato</string>
+    <string name="converted_profile_i">profilo importato %d</string>
+    <string name="copied_entry">Voce di registro copiata negli appunti</string>
+    <string name="copying_log_entries">Sto copiando le voci di log</string>
+    <string name="copyright_guicode">Il codice sorgente e il bug tracker sono disponibili all\'indirizzo http://code.google.com/p/ics-openvpn/</string>
+    <string name="copyright_others">Questo programma usa i seguenti componenti; guarda il codice sorgente per i dettagli completi sulle licenze</string>
+    <string name="crashdump">Dump del crash</string>
+    <string name="custom_config_summary">Specifica opzioni personalizzate. Utilizzare con cautela!</string>
+    <string name="custom_config_title">Abilita opzioni personalizzate</string>
+    <string name="custom_option_warning">Inserire le opzioni personalizzate di OpenVPN. Usare con cautela. Si ricorda che molte delle impostazioni relative a OpenVPN non sono attualmente supportate da questo progetto. Se ritiene che manchi un\'opzione indispensabile, contatta l\'autore</string>
+    <string name="custom_options_title">Opzioni personalizzate</string>
+    <string name="custom_route_format_error">Errore durante la lettura delle regole di reindirizzamento (routing)</string>
+    <string name="custom_route_message">Inserisci instradamenti personalizzati. Usare il formato CIDR. \"10.0.0.0/8 2002::/16\" reindirizza le reti 10.0.0.0/8 e 2002::/16 sulla VPN.</string>
+    <string name="custom_route_message_excluded">Itinerari che dovrebbero non essere instradati su VPN. Utilizzare la stessa sintassi per quanto riguarda le rotte incluse.</string>
+    <string name="custom_routes_title">Routing personalizzati</string>
+    <string name="custom_routes_title_excluded">Reti escluse</string>
+    <string name="debug_build">versione di debug</string>
+    <string name="default_route_summary">Reindirizza tutto il traffico sulla VPN</string>
+    <string name="delete">Elimina</string>
+    <string name="device_specific">Regolazioni specifiche per il dispositivo</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="disconnect">Disconnetti</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="dns">DNS</string>
+    <string name="dns1_summary">Server DNS da utilizzare.</string>
+    <string name="dns_add_error">Impossibile aggiungere il server DNS \"%1$s\", respinto dal sistema: %2$s</string>
+    <string name="dns_override_summary">Utilizza i propri server DNS</string>
+    <string name="dns_server">Server DNS</string>
+    <string name="dns_server_info">DNS Server: %1$s, Dominio: %2$s</string>
+    <string name="donatePlayStore">In alternativa, potete inviarmi una donazione con il Play Store:</string>
+    <string name="donatewithpaypal">Puoi &lt;a href=\"https://www.paypal.com/cgi-bin/webscr?hosted_button_id=R2M6ZP9AF25LS&amp;amp;cmd=_s-xclick\">donare tramite PayPal&lt;/a> </string>
+    <string name="downloaded_data">Download</string>
+    <string name="duplicate_profile_name">Si prega di inserire un nome univoco del profilo</string>
+    <string name="duplicate_profile_title">Duplicazione del profilo: %s</string>
+    <string name="duplicate_vpn">Profilo VPN duplicato</string>
+    <string name="edit_profile_title">Modifica \"%s\"</string>
+    <string name="edit_vpn">Modifica impostazioni VPN</string>
+    <string name="encryption">Crittografia</string>
+    <string name="encryption_cipher">Algoritmo di crittografia</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="enter_licence">Inserisci il codice di attivazione</string>
+    <string name="enter_licence_key">Per attivare la versione completa dell\' app, inserisci il tuo codice di attivazione WiFi Protector</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="enter_tlscn_dialog">Specifica il controllo da effettuare per verificare il certificato DN remoto  (e.g. C=DE, L=Paderborn, OU=Avian IP Carriers, CN=openvpn.blinkt.de)\n\nPer verifica specifica il DN o RDN completo (nell\'esempio openvpn.blinkt.de) oppure un prefisso RDN.\n\nQuando usi un prefisso RDN \"Server\" è valido per \"Server-1\" e \"Server-2\"\n\nLasciando la casella vuota verrà controllato l\'RDN con l\'hostname del server.\n\nPer maggiori informazioni consulta la manpage di OpenVPN 2.3.1+ sotto la voce  —verify-x509-name</string>
+    <string name="enter_tlscn_title">Soggetto del certificato remoto</string>
+    <string name="error">"Errore:"</string>
+    <string name="error_importing_file">Errore durante l\'importazione del file</string>
+    <string name="error_reading_config_file">Errore di lettura del file di configurazione</string>
+    <string name="error_rsa_sign">Errore di firma con la chiave %1$s: %2$s del Keystore di Android.</string>
+    <string name="export_config_title">Configurazione OpenVPN ICS</string>
+    <string name="extracahint">Il certificato della CA è solitamente prelevato dal Keystore di Android. Indica un certificato differente se si generano errori di verifica del certificato.</string>
+    <string name="faq">Domande frequenti (FAQ)</string>
+    <string name="faq_copying">Per copiare una singola voce del log, premi e mantieni sulla voce del log. Per copiare/inviare l\'intero log usa l\'opzione \"Manda log\".
+Usa il tasto hardware Menù se non è visibile nella GUI.</string>
+    <string name="faq_duplicate_notification">Normalmente, se la memoria di sistema (RAM) di Android è insufficiente, i programmi ed i servizi che non sono in quel momento necessari vengono rimossi dalla memoria attiva. Se ciò avvenisse, la connessione VPN in corso verrebbe terminata. Per far sì che la conessione OpenVPN resti in funzione, il servizio viene eseguito in priorità alta e per questo motivo appare un\'icona permanente nella barra delle notifiche. L\'icona di notifica a forma di chiave è invece imposta dal sistema come descritto nella precedente voce delle FAQ e non serve ad eseguire il programma con priorità alta.</string>
+    <string name="faq_duplicate_notification_title">Doppie notifiche</string>
+    <string name="faq_hint">Si raccomanda di leggere anche le FAQ. C\'è anche una guida rapida.</string>
+    <string name="faq_howto">&lt;p>Ottieni una configurazione funzionante (testata sul tuo computer o fornita dal tuo provider o dalla tua ditta).&lt;/p>&lt;p>Se si tratta di un singolo file senza ulteriori file tipo pem/pkcs12, puoi spedire il file a te stesso via email ed aprire l\'allegato. Se hai più file, salvali sulla scheda SD.&lt;/p>&lt;p>Clicca sull\'allegato dell\'email oppure utilizza l\'icona della cartella nell\'elenco delle VPN per importare il file di configurazione.&lt;/p>&lt;p>Se compaiono degli errori relativi a file non trovati, copia i file mancanti sulla tua scheda SD.&lt;/p>&lt;p>Clicca sull\'icona di salvataggio per aggiungere la VPN importata nell\'elenco delle tue VPN.&lt;/p>&lt;p>Connettiti alla VPN cliccando sul nome della VPN.&lt;/p>&lt;p>Se compaiono degli errori o degli avvertimenti nei log, si consiglia di non ignorarli, ma di cercare delle soluzioni.&lt;/p> </string>
+    <string name="faq_howto_shortcut">È possibile inserire un collegamento per avviare OpenVPN dal desktop. A seconda del vostro launcher dovrete aggiungere un collegamento o un widget.</string>
+    <string name="faq_howto_title">Guida rapida</string>
+    <string name="faq_routing">Il routing e la configurazione dell\'interfaccia non vengono fatti tramite i comandi ifconfig/route tradizionali ma utilizzando l\'API VPNService. Ciò si traduce in una configurazione di routing diversa rispetto ad altri sistemi operativi. La configurazione del tunnel VPN è composta dall\'indirizzo IP e dalle reti che devono essere instradate su tale interfaccia. Soprattutto non è necessario alcun indirizzo peer o gateway. Percorsi speciali per raggiungere il server VPN (ad esempio aggiunti quando si utilizza redirect-gateway) non sono neanche necessari. L\'applicazione pertanto ignorerà queste impostazioni durante l\'importazione di una configurazione. L\'applicazione garantisce con l\'API VPNService che la connessione al server non venga instradata attraverso il tunnel VPN. E\' supportato solo la specifica delle reti che devono essere instradate tramite il tunnel. L\'applicazione cerca di rilevare le reti che non devono essere instradate sul tunnel (ad esempio, route x.x.x.x y.y.y.y net_gateway) e calcola una serie di itinerari che escludono questi percorsi per emulare il comportamento di altre piattaforme. Le schermate del registro mostrano la configurazione del VPNService finché si stabilisce una connessione.</string>
+    <string name="faq_routing_title">Configurazione dei reindirizzamenti e dell\'interfaccia</string>
+    <string name="faq_security">"Dato che si usa OpenVPN per motivi di sicurezza, si riportano alcune note su quanto la sicurezza sia sensibile. Tutti i dati memorizzati sulla scheda SD sono intrinsecamente insicuri. Qualunque programma può leggerli (ad esempio a questo programma non sono richiesti speciali diritti per accedere alla scheda SD). I dati di questo programma invece possono essere letti solo dal programma stesso. Utilizzando l\'opzione di importazione di cacert/cert/key nelle impostazioni, i dati vengono memorizzati nel profilo della VPN. I profili delle VPN sono accessibili solo da questo programma (non bisogna però dimenticarsi di eliminare le copie dei certificati sulla scheda SD dopo questa operazione). Tuttavia anche se accessibili solamente da questo programma, i dati vengono memorizzati senza alcuna crittografia. E\' possibile pertanto mediante rooting o altre procedure recuperare tali dati. Anche le password salvate vengono memorizzate in chiaro. Si raccomanda caldamente di importare i file pkcs12 nel keystore di Android."</string>
+    <string name="faq_security_title">Considerazioni sulla sicurezza</string>
+    <string name="faq_shortcut">Scorciatoia per l\'avvio</string>
+    <string name="faq_system_dialog_xposed">Se il tuo dispositivo Android ha il root allora è possibile installare il &lt;a href=\"http://xposed.info/\">framework Xposed&lt;/a> e il &lt;a href=\"http://repo.xposed.info/module/de.blinkt.vpndialogxposed\">modulo di conferma VPN Dialog&lt;/a> a proprio rischio e pericolo\"</string>
+    <string name="faq_system_dialogs">L\'avvertimento durante la connessione VPN, in cui si informa che questo programma può intercettare tutto il traffico del sistema, serve a prevenire un uso fraudolento delle API del servizio VPN.\nL\'icona di notifica a forma di chiave è altresì imposta dal sistema Android per avvertire che si è connessi ad una VPN. Su alcuni apparecchi questa notifica è accompagnata da un suono.\nAndroid utilizza questi sistemi per la tua sicurezza e per assicurarsi che questi non vengano aggirati (in alcuni firmware questo sfortunamente è accompagnato da un suono di avvertimento).</string>
+    <string name="faq_system_dialogs_title">Avviso di connessione e notifica sonora</string>
+    <string name="faq_tap_mode">La modalità TAP non è disponibile con le VPN API non root</string>
+    <string name="faq_tethering">Il Tethering di Android (via WiFi, USB o Bluetooth) e le API del servizio VPN (utilizzate da questo programma) non possono funzionare contemporaneamente. Per maggiori informazioni, vedi &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=34\">il problema #34&lt;/a></string>
+    <string name="faq_vpndialog43">"A partire da Android 4.3 la conferma della VPN viene salvaguardata da \"applicazioni in overlay\". Questo fa sì che il bottone di dialogo non reagisca allo sfioramento. Se avete un\'applicazione che usa gli overlay, ciò potrebbe causare questo comportamento. Se vi capita di trovare questo tipo di situazione, contattate l\'autore dell\'applicazione. Questo problema affligge tutte le applicazioni VPN da Android 4.3 in poi. Consultare anche &lt;a href=\"http://code.google.com/p/ics-openvpn/issues/detail?id=185\">Issue 185&lt;a> per ulteriori dettagli"</string>
+    <string name="faq_vpndialog43_title">Messaggio di conferma Vpn su Android 4.3 e versioni successive</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="fastest_vpn_servers">Server VPN Veloci </string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="file_explorer_tab">Esplora risorse</string>
+    <string name="file_icon">icona del file</string>
+    <string name="file_nothing_selected">Devi selezionare un file</string>
+    <string name="file_select">Seleziona…</string>
+    <string name="files_missing_hint">Alcuni file non possono essere trovati. Si prega di selezionare i file da importare nel profilo:</string>
+    <string name="float_summary">Permette pacchetti autenticati da qualsiasi IP (consente che l\'IP del server possa cambiare)</string>
+    <string name="float_title">Modalità float</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="free_for_limited_time">\u2022 100% GRATIS per 1 ora al giorno
+        \n\u2022 Facile da usare
+        \n\u2022 Tutta la tua navigazione web è protetto da crittografia a 256 bit
+        \n\u2022 Nasconde il tuo indirizzo IP reale e ti dà l\'anonimato e la libertà
+        \n\u2022 Seleziona uno fra gli oltre 20 paesi a cui connetterti</string>
+    <string name="free_user">Utente gratuito</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="full_licenses">Licenze complete</string>
+    <string name="generalsettings">Impostazioni</string>
+    <string name="generated_config">Configurazione generata</string>
+    <string name="generated_config_summary">Mostra il file di configurazione di OpenVPN generato</string>
+    <string name="getproxy_error">Errore nell\'ottenere le impostazioni del proxy: %s</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="have_licence">Ho una licenza</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="help_translate">Puoi aiutare nella traduzione visitando http://crowdin.net/project/ics-openvpn/invite</string>
+    <string name="hwkeychain">Raccoglitore chiavi hardware:</string>
+    <string name="ics_openvpn_log_file">File log di OpenVPN ICS</string>
+    <string name="ignore">Ignora</string>
+    <string name="ignore_routes_summary">Ignora impostazioni di routing comunicate dal server.</string>
+    <string name="ignored_pushed_routes">Ignora gli instradamenti</string>
+    <string name="import_config">Importa configurazione OpenVPN</string>
+    <string name="import_configuration_file">Importa file di configurazione</string>
+    <string name="import_content_resolve_error">Impossibile leggere il profilo da importare</string>
+    <string name="import_could_not_open">Impossibile trovare il file %1$s menzionato nel file di configurazione importato</string>
+    <string name="import_done">
+Effettuata la lettura del file di configurazione</string>
+    <string name="import_error_message">Impossibile importare il file dal filesystem</string>
+    <string name="import_log">Registro importazione:</string>
+    <string name="import_vpn">Importa</string>
+    <string name="import_warning_custom_options">La tua configurazione usava qualche opzione non mappata sull\'Interfaccia Utente. Queste opzioni sono state quindi aggiunte come personalizzate. La configurazione personalizzata è visualizzata qui sotto:</string>
+    <string name="imported_from_file">[Importato da: %s]</string>
+    <string name="importing_config">Importa il file di configurazione dalla sorgente %1$s</string>
+    <string name="importpkcs12fromconfig">Importa i PKCS12 dalla configurazione presente nel Keystore di Android</string>
+    <string name="inline_file_data">[[dati del blocco note]]</string>
+    <string name="inline_file_tab">Blocco note</string>
+    <string name="ip_add_error">Non è stato possibile configurare l\'indirizzo IP \"%1$s\", che è stato rifiutato dal sistema: %2$s</string>
+    <string name="ip_not_cidr">Ottenute le informazioni sulle interfacce %1$s e %2$s, assumendo che il secondo indirizzo sia il peer remoto. Utilizzata la maschera /32 per l\'IP locale. La modalità impostata da OpenVPN è \"%3$s\".</string>
+    <string name="ipdns">IP e DNS</string>
+    <string name="ipv4">IPv4</string>
+    <string name="ipv4_address">Indirizzo IPv4</string>
+    <string name="ipv4_dialog_title">Inserire l\'indirizzo IPv4 e la maschera di rete in formato CIDR (ad esempio 1.2.3.4/24)</string>
+    <string name="ipv4_format_error">Impossibile analizzare l\'indirizzo IPv4</string>
+    <string name="ipv6">IPv6</string>
+    <string name="ipv6_address">Indirizzo IPv6</string>
+    <string name="ipv6_dialog_tile">Inserire l\'indirizzo IPv6 e la maschera di rete in formato CIDR (ad esempio 2000:dd::23/64)</string>
+    <string name="jelly_keystore_alphanumeric_bug">Alcune versioni di Android 4.1 hanno problemi se il nome del certificato keystore contiene caratteri non alfanumerici (come spazi, caratteri di sottolineatura o trattini). Provare a reimportare il certificato senza caratteri speciali</string>
+    <string name="keep">Mantieni</string>
+    <string name="keyChainAccessError">Errore di accesso al Gestore Chiavi: %s</string>
+    <string name="keychain_access">Impossibile accedere ai certificati della Keychain di Android (può essere causato da un aggiornamento del firmware o dal ripristino di un backup dell\'applicazione o delle sue impostazioni). E\' necessario modificare le impostazioni della VPN e riselezionare il certificato nelle impostazioni principali per ricreare i permessi di accesso al certificato.</string>
+    <string name="keychain_nocacert">Nessun certificato della CA è stato prelevato dal Keystore di Android. E\' probabile che l\'autenticazione fallisca.</string>
+    <string name="last_openvpn_tun_config">Apertura interfaccia tun in corso:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="licence">Licenza</string>
+    <string name="licence_expired">La tua licenza è scaduta.</string>
+    <string name="licence_key">Chiave di licenza</string>
+    <string name="licence_key_expired">Codice di attivazione scaduto</string>
+    <string name="licence_key_expired_desc">Il codice di attivazione è scaduto. Si prega di contattare support@wifiprotector.com</string>
+    <string name="licence_not_valid">Il tuo codice di attivazione non è valido. Riprova.</string>
+    <string name="licences">Licenze</string>
+    <string name="limit_exceeded">Limite VPN gratuite raggiunto.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="loading">Caricando…</string>
+    <string name="local_ip_info">Indirizzi locali - IPv4: %1$s/%2$d IPv6: %3$s MTU: %4$d</string>
+    <string name="location">Posizione</string>
+    <string name="logCleared">Registrazioni log cancellate.</string>
+    <string name="log_no_last_vpn">Impossibile determinare l\'ultimo profilo con cui ci si è connessi per poterlo modificare</string>
+    <string name="log_verbosity_level">Livello di dettaglio del registro</string>
+    <string name="logview_options">Visualizza opzioni</string>
+    <string name="make_selection_inline">Copia nel profilo</string>
+    <string name="menu_add_profile">Aggiungi profilo</string>
+    <string name="menu_import">Importa il profilo dal file .ovpn</string>
+    <string name="menu_import_short">Importa</string>
+    <string name="minidump_generated">OpenVPN si è arrestato in modo imprevisto. Ti consigliamo di attivare l\'opzione Invia Minidump nel menu principale.</string>
+    <string name="mobile_info">In esecuzione su %1$s (%2$s) %3$s, Android API %4$d</string>
+    <string name="mobile_info_extended">In esecuzione su %1$s (%2$s) %3$s, Android API %4$d, versione %5$s, %6$s</string>
+    <string name="mssfix_checkbox">Sovrascrivi il valore del MSS nel payload TCP</string>
+    <string name="mssfix_dialogtitle">Setta il valore del MSS nel payload TCP</string>
+    <string name="netchange">Riconnetti in caso cambi la rete</string>
+    <string name="netchange_summary">Selezionando questa opzione verrà forzata una riconnessione se lo stato della rete cambia (da WIFI a cellulare e viceversa)</string>
+    <string name="netstatus">Stato della rete: %s</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="next">Avanti</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="no_bind">Niente local binding</string>
+    <string name="no_certificate">Devi selezionare un certificato</string>
+    <string name="no_data">Nessun dato</string>
+    <string name="no_error_found">Nessun errore trovato</string>
+    <string name="no_external_app_allowed">Nessuna app ha il permesso di usare l\'API esterna</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="no_internet_connection">Nessuna connessione internet</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="no_keystore_cert_selected">Devi selezionare un certificato utente</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="no_subscription">Nessun abbonamento</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="no_vpn_profiles_defined">Nessun profilo VPN definito.</string>
+    <string name="no_vpn_support_image">La tua immagine non è supportata dal VPNService API, mi dispiace :(</string>
+    <string name="nobind_summary">Non si vincola all\'indirizzo e alla porta locali (bind)</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="not_now">Non adesso</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="notifcation_title">OpenVPN - %s</string>
+    <string name="notifcation_title_notconnect">Non connesso</string>
+    <string name="obscure">Impostazioni avanzate di OpenVPN. Normalmente non necessarie.</string>
+    <string name="official_build">versione ufficiale</string>
+    <string name="onbootrestart">Riconnetti al riavvio</string>
+    <string name="onbootrestartsummary">OpenVPN is riconnetterà alla VPN se era in funzione durante un riavvio od un spegnimento dell\'apparecchio. Leggi con attenzione le FAQ con gli avvertimenti sulla connessione prima di scegliere questa opzione.</string>
+    <string name="opentun_no_ipaddr">Rifiuto di attivare il dispositivo tun senza informazioni sull\'IP</string>
+    <string name="openvpn_is_no_free_vpn">Per utilizzare questa applicazione è necessario un provider VPN/gateway VPN che supportino OpenVPN (spesso forniti dal datore di lavoro). Vai a http://community.openvpn.net/ per ulteriori informazioni su OpenVPN e come configurare il proprio server OpenVPN.</string>
+    <string name="openvpn_log">Log di OpenVPN</string>
+    <string name="override_dns">Modifica DNS</string>
+    <string name="owner_fix">Correggi i diritti su /dev/tun</string>
+    <string name="owner_fix_summary">Tenta di impostare system come proprietario di /dev/tun. Alcuni firmware CM9 necessitano di questa impostazione affinché le API del servizio VPN funzionino. E\' necessario essere root.</string>
+    <string name="packet_auth">Autenticazione pacchetti</string>
+    <string name="password">Password</string>
+    <string name="pauseVPN">Pausa della VPN</string>
+    <string name="payload_options">Opzioni Payload</string>
+    <string name="permission_icon_app">Un\'icona di applicazione sta tentando di usare OpenVPN per Android</string>
+    <string name="persistent_tun_title">tun persistente</string>
+    <string name="persisttun_summary">Non passa allo stato di \"Nessuna connessione VPN\" quando OpenVPN sta eseguendo un tentativo di riconnessione.</string>
+    <string name="pkcs12_file_encryption_key">File con la chiave di crittografia PKCS12</string>
+    <string name="pkcs12pwquery">Password PKCS12</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="plans">Piani</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="port">Porta del server:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="premium_support">Supporto Premium</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="private_key_password">Password della chiave privata</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="pro_tip">Suggerimento professionale:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="profilename">Nome del profilo</string>
+    <string name="prompt">%1$s tenta di controllare %2$s</string>
+    <string name="pull_off_summary">Nessuna informazione è richiesta al server. Le impostazioni devono essere specificate qui di seguito.</string>
+    <string name="pull_on_summary">Richiede indirizzi IP, instradamenti ed opzioni di sincronizzazione al server.</string>
+    <string name="pw_query_hint">(non compilare perché venga sempre richiesto)</string>
+    <string name="random_host_prefix">Prefisso Host casuale</string>
+    <string name="random_host_summary">Aggiunge 6 caratteri casuali prima dell\'hostname</string>
+    <string name="rdn">RDN (nome comune)</string>
+    <string name="rdn_prefix">Prefisso RDN</string>
+    <string name="reconnection_settings">Impostazioni di riconnessione</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="refresh">Aggiorna</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="remote_tlscn_check_summary">Controlla il soggetto DN del certificato del server remoto</string>
+    <string name="remote_tlscn_check_title">Verifica il certificato dell\'Host</string>
+    <string name="remote_trust">Considero questa applicazione attendibile.</string>
+    <string name="remote_warning">Se procedi, concedi all\'applicazione l\'autorizzazione per intercettare tutto il traffico di rete.<b> NON accettare se non consideri l\'applicazione attendibile</b>, altrimenti corri il rischio che i tuoi dati vengano compromessi da programmi software dannosi</string>
+    <string name="remotetlsnote">La configurazione importata utilizza l\'opzione tls-remote che è obsoleta, ed utilizza un diverso formato DN.</string>
+    <string name="remove_vpn">Rimuovi VPN</string>
+    <string name="remove_vpn_query">Rimuovere il profilo VPN \'%s\'?</string>
+    <string name="restart">Riavvia</string>
+    <string name="restart_vpn_after_change">Le modifiche sarannoi applicate dopo aver riavviato la connessione VPN. Riavviare ora la connessione?</string>
+    <string name="resumevpn">Ricollega la VPN</string>
+    <string name="route_not_cidr">Impossibile utilizzare %1$s e %2$s come reindirizzamenti IP con la maschera CIDR, è stata quindi usata la maschera /32.</string>
+    <string name="route_not_netip">Instradamento %1$s/%2$s corretto con %3$s/%2$s</string>
+    <string name="route_rejected">Reindirizzamento (route) rifiutato da Android</string>
+    <string name="routes_debug">Instradamenti VpnService installati: %1$s %2$s</string>
+    <string name="routes_info_excl">Instradamenti esclusi: %1$s %2$s</string>
+    <string name="routes_info_incl">Instradamenti: %1$s %2$s</string>
+    <string name="routing">Instradamento (routing)</string>
+    <string name="save_password">Salva la Password</string>
+    <string name="screen_nopersistenttun">Attenzione: \"Tun persistente\" non è abilitato per questa VPN. Quando lo schermo è spento verrà utilizzata la normale connessione internet.</string>
+    <string name="screenoff_pause">Sospensione della connessione nello stato di schermo spento: meno di %1$s in %2$ss</string>
+    <string name="screenoff_summary">Sospende la VPN quando lo schermo è spento e meno di 64Kb di dati sono trasferiti in 60s.  Quando l\'opzione \"Tun persistente\" è abilitata, la sospensione della VPN lascerà il tuo dispositivo con NESSUNA connettività di rete. Senza l\'opzione \"Tun persistente\" il dispositivo non avrà alcuna connessione/protezione VPN.</string>
+    <string name="screenoff_title">Sospende la connessione VPN dopo lo spegnimento dello schermo</string>
+    <string name="searchdomain">Dominio di ricerca</string>
+    <string name="secondary_dns_message">Server DNS secondario utilizzato se il Server DNS primario non può essere raggiunto.</string>
+    <string name="select">Seleziona</string>
+    <string name="select_file">Selezionare</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="select_from_countries">Seleziona uno fra gli oltre 20 paesi a cui connetterti</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="send">Invia</string>
+    <string name="send_config">Invia file di configurazione</string>
+    <string name="send_logfile">Invia il file di log</string>
+    <string name="send_minidump">Invia Minidump allo sviluppatore</string>
+    <string name="send_minidump_summary">Invia informazioni di debug riguardanti l\'ultimo crash allo sviluppatore</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="server_is_not_responding_toast">Questo server non è raggiungibile al momento. Riprova o utilizza un server differente</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="server_list">Lista Server</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="servers_are_not_responding_toast">Questi server non possono essere raggiunti al momento. Riprova fra un paio di minuti</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="session_ipv4string">%1$s - %2$s</string>
+    <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
+    <string name="setting_loadtun">Carica il modulo tun</string>
+    <string name="setting_loadtun_summary">Prova a caricare il modulo tun.ko prima di connettersi. Si devono avere diritti di root sul dispositivo.</string>
+    <string name="settings_auth">Autenticazione/crittografia</string>
+    <string name="shortcut_profile_notfound">Profilo indicato nel collegamento non trovato</string>
+    <string name="show_log_summary">Mostra la finestra dei log della connessione. Si può sempre accedere alla finestra dei log tramite la barra delle notifiche.</string>
+    <string name="show_log_window">Visualizza la finestra dei log</string>
+    <string name="show_password">Mostra password</string>
+    <string name="speed_waiting">In attesa del messaggio di stato…</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="start">Inizio</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="start_vpn_ticker">Connessione alla VPN %s in corso</string>
+    <string name="start_vpn_title">Connessione alla VPN %s in corso</string>
+    <string name="state_add_routes">Configuro gli instradamenti</string>
+    <string name="state_assign_ip">Assegnazione indirizzi IP</string>
+    <string name="state_auth">Autenticazione</string>
+    <string name="state_auth_failed">Autenticazione fallita</string>
+    <string name="state_connected">Connesso</string>
+    <string name="state_connecting">Connessione in corso</string>
+    <string name="state_disconnected">Disconnetti</string>
+    <string name="state_exiting">Uscita</string>
+    <string name="state_get_config">Caricamento configurazione client</string>
+    <string name="state_nonetwork">In attesa di una rete utilizzabile</string>
+    <string name="state_noprocess">Non in esecuzione</string>
+    <string name="state_reconnecting">Riconnessione in corso</string>
+    <string name="state_resolve">Risoluzione hostname in corso</string>
+    <string name="state_screenoff">VPN sospesa - schermo spento</string>
+    <string name="state_tcp_connect">Connessione in corso (TCP)</string>
+    <string name="state_userpause">Sospensione della VPN richiesta dall\'utente</string>
+    <string name="state_wait">In attesa di risposta dal server</string>
+    <string name="static_keys_info">Per la configurazione statica le chiavi di autorizzazione TLS saranno usate come chiavi statiche</string>
+    <string name="statusline_bytecount">↓%2$s/s %1$s - ↑%4$s/s %3$s</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="subscription">Abbonamento</string>
+    <string name="subscription_cancelled">Annullato</string>
+    <string name="support">Supporto</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="tap_faq2">Ancora? Stai scherzando? No, la modalità tap non è supportata e mandare nuove email chiedendo se sarà supportata non aiuterà.</string>
+    <string name="tap_faq3">Per la terza volta? In realtà si potrebbe scrivere un emulatore TAP basato su TUN che aggiunge le informazioni di Layer 2 in uscita e le elimina in ingresso. Ma questo emulatore TAP dovrebbe anche implementare ARP e un client DHCP. Non sono a conoscenza di nessuno che stia realizzando qualcosa del genere. Contattami se vuoi iniziare a scrivere del codice a riguardo.</string>
+    <string name="tap_mode">Modalità TAP</string>
+    <string name="thanks_for_donation">Grazie per la donazione di %s!</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="time_limit_exceeded">Il tuo limite VPN gratuito di 1 ora per oggi è scaduto. Seleziona l\'abbonamento qui sotto e aggiornati alla versione completa.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="timestamp_iso">ISO</string>
+    <string name="timestamp_short">Breve</string>
+    <string name="timestamps">Indicazione oraria</string>
+    <string name="timestamps_none">Nulla</string>
+    <string name="title_cancel">Conferma l\'annullamento</string>
+    <string name="tls_auth_file">File di autenticazione TLS</string>
+    <string name="tls_authentication">Autenticazione TLS</string>
+    <string name="tls_direction">Direzione TLS</string>
+    <string name="tls_key_auth">Abilita l\'autenticazione tramite TLS</string>
+    <string name="tls_remote_deprecated">TLS-remote (obsoleto)</string>
+    <string name="tls_settings">Impostazioni TLS</string>
+    <string name="translationby">Traduzione in inglese di Arne Schwabe&lt;arne@rfc2549.org></string>
+    <string name="tun_error_helpful">In alcune immagini ICS personalizzate i permessi su /dev/tun potrebbero essere errati, oppure il modulo TUN completamente assente. Per le immagini CM9 provare a correggere le opzioni Proprietà nella sezione impostazioni generali</string>
+    <string name="tun_open_error">Impossibile accedere all\'interfaccia tun</string>
+    <string name="unhandled_exception">Eccezione non gestita: %1$s\n\n%2$s</string>
+    <string name="unhandled_exception_context">%3$s: %1$s\n\n%2$s</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="unknown_error">Errore sconosciuto</string>
+    <string name="unlimited_usage">Uso illimitato</string>
+    <string name="updating_servers">Aggiornamento dei server..</string>
+    <string name="upgrade_to_full_version">Aggiorna ad una protezione completa</string>
+    <string name="upgrade_to_unlock">Puoi effettuare l\'upgrade dell\'app per averlo illimitato.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="uploaded_data">Upload</string>
+    <string name="useLZO">Compressione LZO</string>
+    <string name="useTLSAuth">Usa autenticazione TLS</string>
+    <string name="use_default_title">Utilizza il Routing di default</string>
+    <string name="use_pull">Richiedi impostazioni</string>
+    <string name="use_system_proxy">Utilizza il proxy di sistema</string>
+    <string name="use_system_proxy_summary">Utilizza la configurazione generale del sistema relativa ai proxy HTTP/HTTPS per connettersi.</string>
+    <string name="userpw_file">File nome utente/password</string>
+    <string name="using_proxy">Si sta utilizzando il proxy %1$s %2$d</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="version">Versione</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="version_info">%1$s %2$s</string>
+    <string name="vpn_import_hint">Usa l\'icona &lt;img src=\"ic_menu_archive\"/> per importare il profilo (.ovpn o .conf) dalla tua scheda SD.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="vpn_is_off">La protezione VPN è spenta</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="vpn_launch_title">Connetti alla VPN</string>
+    <string name="vpn_list_title">Profili</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="vpn_protection_desc">Una VPN (Virtual Private Network) può essere pensata come il tuo tunnel privato tra il dispositivo e Internet.</string>
+    <string name="vpn_protection_desc_2">Questo, di fatto, rende tutte le comunicazioni da e verso il tuo dispositivo mobile \'invisibile\' a chiunque intorno a te. Infatti i tuoi dati (informazioni) sono criptati rendendoli indecifrabili a chiunque altro. La VPN Wifi Protector utilizza la tecnologia OpenVPN, che è il protocollo VPN più sicuro disponibile oggi.</string>
+    <string name="vpn_security_enabled">Connesso. Sicurezza VPN abilitata.</string>
+    <string name="vpn_server">Il tuo server VPN:</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="vpn_shortcut">Collegamento a OpenVPN</string>
+    <string name="vpn_status">Stato VPN</string>
+    <string name="vpn_tethering_title">VPN e Tethering</string>
+    <string name="vpn_type">Tipo</string>
+    <string name="vpnbehaviour">Comportamento della VPN</string>
+    <string name="warn_no_dns">Nessun server DNS verrà utilizzato. La risoluzione dei nomi potrebbe non funzionare. Provare a impostare i server DNS personalizzati. Si prega di notare, che Android utilizzerà le impostazioni del proxy specificate per la connessione Wi-Fi, quando non viene impostato alcun server DNS.</string>
+    <!-- From: file:/Volumes/Work/Workspace/android/wpandroid/wp-android/main/src/main/res/values-it/wifi_protector_strings.xml -->
+    <eat-comment/>
+    <string name="what_is_vpn">Cos\'è una VPN?</string>
+    <string name="would_like_to_buy">Vorrei acquistare un abbonamento</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        Con una sottoscrizione annuale lo stesso utente avrà accesso alla pluripremiata versione PC di Wifi Protector (oltre 1 milione di utenti e in crescita) completamente GRATIS.
+        ]]></string>
+</resources>

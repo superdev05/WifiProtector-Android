@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="vpn_security_enabled">Подключено. Включена защита VPN.</string>
+    <string name="licence_key">Лицензионный ключ</string>
+    <string name="enter_licence_key">Для активации полной версии приложения введите код активации WiFi Protector</string>
+    <string name="activating">Активация ...</string>
+    <string name="activated">Активировано!</string>
+    <string name="account_activated">Ваш аккаунт был активирован.</string>
+    <string name="licence_expired">Срок действия лицензии истек.</string>
+    <string name="licence_not_valid">Ваш код активации недействителен. Пожалуйста, повторите попытку.</string>
+    <string name="enter_licence">Введите код активации</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="limit_exceeded">Достигнут лимит бесплатных VPN.</string>
+    <string name="upgrade_to_unlock">Вы можете улучшить приложение, чтобы снять ограничение.</string>
+    <string name="cant_connect">Невозможно подключиться</string>
+    <string name="no_internet_connection">Нет подключения к Интернету</string>
+    <string name="subscription_cancelled">Отменено</string>
+    <string name="subscription">Подписка</string>
+    <string name="no_subscription">Нет подписки</string>
+    <string name="automatic_selection_description">* Мы автоматически выберем самый быстрый сервер в вашем местоположении</string>
+    <string name="auto_selection">Автоматический выбор *</string>
+    <string name="vpn_protection_desc">Виртуальную частную сеть (VPN) можно рассматривать в качестве вашего личного туннеля между вашим устройством и Интернетом.</string>
+    <string name="vpn_protection_desc_2">Это, по сути, делает все подключения к вашему мобильному и с него «невидимыми» для всех вокруг вас. В действительности, ваши данные (информация) шифруются, что делает их бессмысленными для иных людей. Wifi Protector VPN использует технологию OpenVPN — наиболее безопасный протокол VPN на сегодняшний день.</string>
+    <string name="free_for_limited_time">\u2022 На 100% БЕСПЛАТНО в течение 1 часа в день
+        \n\u2022 Удобство использования
+        \n\u2022 Все ваши действия в Интернете защищаются 256-битным шифрованием
+        \n\u2022 Скрывается ваш реальный IP-адрес, что обеспечивает вашу анонимность и свободу
+        \n\u2022 Выбирайте из более чем 20 стран для подключения</string>
+    <string name="what_is_vpn">Что такое VPN?</string>
+    <string name="time_limit_exceeded">Ваш 1-часовой лимит бесплатного VPN на сегодня истек. Выберите подписку ниже и улучшите до полной версии сейчас.</string>
+    <string name="vpn_is_off">Защита VPN выключена</string>
+    <string name="upgrade_to_full_version">Улучшите до полной защиты</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="select_from_countries">Выбирайте из более чем 20 стран для подключения</string>
+    <string name="unlimited_usage">Неограниченное использование</string>
+    <string name="fastest_vpn_servers">Самые быстрые VPN-серверы</string>
+    <string name="premium_support">Премиум-поддержка</string>
+    <string name="wp_windows_offer_description"><![CDATA[
+        С годовой подпиской этот же пользователь абсолютно БЕСПЛАТНО получит доступ к версии Wifi Protector для компьютера, удостоенной различных наград (более 1 млн пользователей, и их число растет).
+        ]]></string>
+    <string name="pro_tip">Подсказка для профессионалов:</string>
+    <string name="support">Поддержка</string>
+    <string name="server_is_not_responding_toast">Сейчас невозможно связаться с этим сервером. Пожалуйста, повторите попытку или используйте другой сервер</string>
+    <string name="servers_are_not_responding_toast">Сейчас невозможно связаться с этими серверами. Пожалуйста, повторите попытку через несколько минут</string>
+    <string name="licence_key_expired">Просроченный код активации</string>
+    <string name="licence_key_expired_desc">Срок действия вашего кода активации истек. Пожалуйста, напишите на documents@ironplanet.com</string>
+    <string name="version">Версия</string>
+    <string name="updating_servers">Обновление серверов ...</string>
+    <string name="refresh">Обновить</string>
+    <string name="licence">Лицензия</string>
+    <string name="plans">Тарифные планы</string>
+    <string name="benefits">Особенности</string>
+    <string name="vpn_server">Ваш VPN-сервер:</string>
+    <string name="free_user">Бесплатный пользователь</string>
+    <string name="have_licence">У меня есть лицензия</string>
+    <string name="would_like_to_buy">Я хотел бы приобрести подписку</string>
+    <string name="licences">Лицензии</string>
+    <string name="next">Далее</string>
+    <string name="start">Начать</string>
+    <string name="action_settings">Настройки</string>
+</resources>

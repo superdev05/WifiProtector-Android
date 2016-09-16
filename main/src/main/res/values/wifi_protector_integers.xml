@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="allowed_vpn_time_for_free_users_in_seconds">3600</integer>
+    <!--// todo -->
+</resources>
